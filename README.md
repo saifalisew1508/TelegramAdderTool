@@ -1,4 +1,3 @@
-
 ## TelegramAdderTool 3.0
 
 This Project Let You add members from Your group to another group or supergroup.
@@ -23,9 +22,9 @@ This project is most optimised Telegram member adder.
 - use other command if first one give error 
 
 
-```
-Get Api_Id and Api_Hash From my.telegram.org
-```
+> ***Get Api_Id and Api_Hash From [my.telegram.org](https://my.telegram.org)***
+
+
 ```
 bash git clone https://github.com/saifalisew1508/TelegramAdderTool
 ```
@@ -45,13 +44,17 @@ RUN python3 make_config.py or python make_config.py
 ## To Do
 if you did not add number in phone.csv you will be asked for 
 how many numbers you want to add
-- first add ur phone numbers in phone.csv (optional)
-- type the number one by one with country code example 919708973259 [91 is my country code] (only required if you did not fill phone.csv)
+> ***first add ur phone numbers in phone.csv (optional)***
+
+> ***type the number one by one with country code example 919708973259 [91 is my country code] (only required if you did not fill phone.csv)***
 ## To Don't
--  enter number of account you want to add example: 10 or 5
--  enter ur number with country code example 919708973259 [91 is my country code]
--  enter ur api id. get from https://my.telegram.org/auth
--  enetr ur api hash. get from https://my.telegram.org/auth
+> ***enter number of account you want to add example: 10 or 5***
+
+> ***enter ur number with country code example 919708973259 [91 is my country code]***
+
+> ***enter ur api id. get from https://my.telegram.org/auth***
+
+> ***enetr ur api hash. get from https://my.telegram.org/auth***
 
 
 ### AutoJoin and SpamCheck accepts [True/false] editable in  config.py after you run make_confg.py
