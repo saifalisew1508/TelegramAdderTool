@@ -1,0 +1,17 @@
+{
+	"group_target": 1398166,
+	"group_source": 1490304,
+	"group_source_username": "telegram",
+	"group_target_username": "crypto",
+	"from_date_active": "UserStatus.RECENTLY",
+	"auto_join": false,
+	"spam_check": true, 
+	"wait_time": 120, #sleep time
+	"accounts": [
+		{
+			"phone": "+91XXXXXXXXXX",
+			"api_id": 25194789,
+			"api_hash": "e59afe25c17585635ec031c889eb5b34"
+		}
+	]
+}

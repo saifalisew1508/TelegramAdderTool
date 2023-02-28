@@ -1,0 +1,90 @@
+[
+    {
+        "device_model": "Moto Z3 Play",
+        "system_version": "Android 8.0 \"Oreo\""
+    },
+    {
+        "device_model": "Moto Z3",
+        "system_version": "Android 8.0 \"Oreo\""
+    },
+    {
+        "device_model": "Motorola One/One Power",
+        "system_version": "Android 8.0 \"Oreo\""
+    },
+    {
+        "device_model": "Moto G7",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola One Vision",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Moto Z4",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola One Zoom",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Moto G8 Plus",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola One Macro",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola One Action",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola Razr (2020)",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola One Hyper",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto G8 Power",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto G Power/Stylus",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto G8",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto E6s (2020)",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Moto G8 Power Lite",
+        "system_version": "Android 9.0 \"Pie\""
+    },
+    {
+        "device_model": "Motorola Edge/Edge+",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto G Pro",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto E (2020)",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Moto G Fast",
+        "system_version": "Android 10"
+    },
+    {
+        "device_model": "Motorola One Fusion+",
+        "system_version": "Android 10"
+    }
+]
