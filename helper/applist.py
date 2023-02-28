@@ -28,7 +28,7 @@ async def addlogin(config, gp_s_id):
             PYRO.info(f"{phone} has been removed from telegram")
             continue
         except BaseException as e:
-            PYRO.info(f"{e} Share this error to @OpenSource_Chat on telegram")
+            PYRO.info(f"{e} Share this error to @PublicSource_Chat on telegram")
             continue
         check = await app.get_me()
         try:
