@@ -101,7 +101,7 @@ RUN python3 add_member.py or python add_member.py
 - Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram 
 
 
-> ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@OpenSource_Chat](https://t.me/OpenSource_Chat)***
+> ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
 
 
 ## FAQ
