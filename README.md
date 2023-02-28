@@ -1,5 +1,5 @@
 
-# Pyrogram-Add-Member
+## TelegramAdderTool 3.0
 
 This Project Let You add members from Your group to another group or supergroup.
 
@@ -42,12 +42,12 @@ RUN python3 make_config.py or python make_config.py
 - target username is the link or username of your group
 - if you have api_id and hash for ur numbers type YES otherwise 
 
-# To Do
+## To Do
 if you did not add number in phone.csv you will be asked for 
 how many numbers you want to add
 - first add ur phone numbers in phone.csv (optional)
-- type the number one by one with country code example 918571000000 [91 is my country code] (only required if you did not fill phone.csv)
-# To Don't
+- type the number one by one with country code example 919708973259 [91 is my country code] (only required if you did not fill phone.csv)
+## To Don't
 -  enter number of account you want to add example: 10 or 5
 -  enter ur number with country code example 919708973259 [91 is my country code]
 -  enter ur api id. get from https://my.telegram.org/auth
@@ -98,14 +98,10 @@ RUN python3 add_member.py or python add_member.py
 - 40-80 times faster
 - use parallel get_data
 - scraps contacts and save in .CSV file
-- Setup help contact [@OpenSource_Chat](https://t.me/OpenSource_Chat) on telegram 
+- Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram 
 
 
-## Support or donation 
-
-For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram
-
-Or help and support [@OpenSource_Chat](https://t.me/OpenSource_Chat)
+> ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@OpenSource_Chat](https://t.me/OpenSource_Chat)***
 
 
 ## FAQ
@@ -126,7 +122,7 @@ raise a issue or use telegram support
 
 I will Suggest 15 but depends on ur biggest
 
-Buy account from : [@OpenSource_Chat](http://t.me/OpenSource_Chat) on Telegram
+Buy account from : [@PublicSource_Chat](http://t.me/PublicSource_Chat) on Telegram
 
 Check @spambot on Telegram if ur account is limited
 
@@ -149,22 +145,42 @@ other should be clear from name
 
 Yes it's called donation version 
 
-#### My ETH wallet address
-
+### Donate Me
+> ***My ETH wallet address***
 ```
 0x0fBcb24DC8588c63bdbC126e2192aB609c7dF528
 ```
-
-#### My BTC wallet address
-
+> ***My ETH BTC address***
 ```
 bc1qgfqtujdmdeaky0n80rswnfv8p7x62shspfl9rc
 ```
-## My upi id 
-
+> ***My upi id***
 ```
 Saif.9@paytm
 ```
+
+<a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
+<a href="https://www.paypal.me/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="saifalisew1508" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
+
+### Warning
+
+> **This tool is official and completely free to use. Do not buy if anyone tries to sell by copying script**
+
+### Contacts
+
+> ***I have also created another paid version to add members for buy message at telegram***
+
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact-brightgreen)](https://t.me/saifalisew15O8) 
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact-brightgreen)](https://t.me/PrinceXofficial) 
+> ***If you have any problems regarding the script then write it in this groupchat:***
+
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/PublicSource_Chat)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/ABOUT_SAIF)
+
+
+<h2 align="center">Visitors Counts👀</h2>
+<a href="https://github.com/saifalisew1508/TelegramAdderTool"><img alt="Cute Count" src="https://count.getloli.com/get/@TelegramAdderTool?theme=rule34" /></a>
+
 
 ## Contributing:
 
