@@ -98,7 +98,7 @@ def main():
                         "api_hash": DEFAULT_API_HASH
                     }
                     config["accounts"].append(new_account)
-                    count -= 1
+                    count = 1
         with open(config_path, 'w', encoding='utf-8') as file:
             json.dump(config, file, indent=4)
     elif  choice[0] == "y":
