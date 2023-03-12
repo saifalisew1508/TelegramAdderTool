@@ -58,7 +58,7 @@ async def add_member(user_id, config, active, method):
     try:
         waittime = config["wait_time"]
     except:
-        waittime = 120
+        waittime = 10
 
     # single function for sleep and time logger.info
     async def prints():
