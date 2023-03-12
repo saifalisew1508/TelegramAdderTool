@@ -21,7 +21,6 @@ DEFAULT = "UserStatus.RECENTLY"
 
 OPTIONS = "UserStatus.LAST_MONTH", "UserStatus.LAST_WEEK", "UserStatus.OFFLINE", "UserStatus.RECENTLY", "UserStatus.ONLINE"
 config_path = Path("config.json")
-WAIMT_TYM = input("Enter delay time per request 0 for None, i suggest enter 5 to add members properly : ")
 group_source = input("Enter the user ID of the group from which the members have to be scraped : ")
 group_target = input("Enter the user ID of the group in which the member is to be added : ")
 group_source_username = input("Enter the username of the group from which the members have to be scraped : ")
@@ -59,7 +58,7 @@ def main():
                                 "from_date_active": DEFAULT,
                                 "auto_join": True, 
                                 "spam_check": True,
-                                "wait_time": WAIMT_TYM,
+                                "wait_time": 2,
                                 "accounts": []
                             }
                 for pphone in str_list:
@@ -85,7 +84,7 @@ def main():
                                     "from_date_active": DEFAULT,
                                     "auto_join": True,  
                                     "spam_check": True,  
-                                    "wait_time": WAIMT_TYM, 
+                                    "wait_time": 2, 
                                     "accounts": []
                                 }
                 count = int(input("how many numbers you want to add: "))
@@ -116,7 +115,7 @@ def main():
                                         "from_date_active": DEFAULT,
                                         "auto_join": True, 
                                         "spam_check": True,  
-                                        "wait_time": WAIMT_TYM, 
+                                        "wait_time": 2, 
                                         "accounts": []
                                     }
              count = int(input("how many numbers you want to add: "))
