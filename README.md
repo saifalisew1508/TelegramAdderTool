@@ -153,7 +153,7 @@ Yes it's called donation version
 ```
 0x0fBcb24DC8588c63bdbC126e2192aB609c7dF528
 ```
-> ***My ETH BTC address***
+> ***My BTC wallet address***
 ```
 bc1qgfqtujdmdeaky0n80rswnfv8p7x62shspfl9rc
 ```
