@@ -21,8 +21,9 @@ DEFAULT = "UserStatus.RECENTLY"
 
 OPTIONS = "UserStatus.LAST_MONTH", "UserStatus.LAST_WEEK", "UserStatus.OFFLINE", "UserStatus.RECENTLY", "UserStatus.ONLINE"
 config_path = Path("config.json")
+WAIMT_TYM = input("Enter delay time per request 0 for None, i suggest enter 5 to add members properly: ")
 group_source = input("group_source_id: ")
-group_target = input("group_target_id :")
+group_target = input("group_target_id: ")
 group_source_username = input("group_source_username: ")
 if '+' in group_source_username:
     pass
@@ -58,7 +59,7 @@ def main():
                                 "from_date_active": DEFAULT,
                                 "auto_join": True, 
                                 "spam_check": True,
-                                "wait_time": 120,
+                                "wait_time": WAIMT_TYM,
                                 "accounts": []
                             }
                 for pphone in str_list:
@@ -84,7 +85,7 @@ def main():
                                     "from_date_active": DEFAULT,
                                     "auto_join": True,  
                                     "spam_check": True,  
-                                    "wait_time": 120, 
+                                    "wait_time": WAIMT_TYM, 
                                     "accounts": []
                                 }
                 count = int(input("how many numbers you want to add: "))
@@ -115,7 +116,7 @@ def main():
                                         "from_date_active": DEFAULT,
                                         "auto_join": True, 
                                         "spam_check": True,  
-                                        "wait_time": 120, 
+                                        "wait_time": WAIMT_TYM, 
                                         "accounts": []
                                     }
              count = int(input("how many numbers you want to add: "))
