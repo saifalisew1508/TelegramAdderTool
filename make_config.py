@@ -21,10 +21,10 @@ DEFAULT = "UserStatus.RECENTLY"
 
 OPTIONS = "UserStatus.LAST_MONTH", "UserStatus.LAST_WEEK", "UserStatus.OFFLINE", "UserStatus.RECENTLY", "UserStatus.ONLINE"
 config_path = Path("config.json")
-WAIMT_TYM = input("Enter delay time per request 0 for None, i suggest enter 5 to add members properly: ")
-group_source = input("group_source_id: ")
-group_target = input("group_target_id: ")
-group_source_username = input("group_source_username: ")
+WAIMT_TYM = input("Enter delay time per request 0 for None, i suggest enter 5 to add members properly : ")
+group_source = input("Enter the user ID of the group from which the members have to be scraped : ")
+group_target = input("Enter the user ID of the group in which the member is to be added : ")
+group_source_username = input("Enter the username of the group from which the members have to be scraped : ")
 if '+' in group_source_username:
     pass
 else:
@@ -32,7 +32,7 @@ else:
     "(@)|(https://t.me/)|(http://t.me/)",
     "",
      group_source_username)
-group_target_username = input("group_target_username: ")
+group_target_username = input("Enter the username of the group in which the member is to be added : ")
 if '+' in group_target_username:
     pass
 else:
