@@ -29,7 +29,7 @@ This project is most optimised Telegram member adder.
 bash git clone https://github.com/saifalisew1508/TelegramAdderTool
 ```
 ```
- RUN pip3 install -r requirements.txt or pip install -r requirments.txt 
+ RUN pip3 install -r requirements.txt or pip install -r requirements.txt 
 ```
 Now Add Accounts Which accounts be Used For Adding 
 ```
