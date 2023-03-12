@@ -56,7 +56,7 @@ def main():
                                 "group_source_username": group_source_username,
                                 "group_target_username": group_target_username,
                                 "from_date_active": DEFAULT,
-                                "auto_join": False, 
+                                "auto_join": True, 
                                 "spam_check": True,
                                 "wait_time": 120,
                                 "accounts": []
@@ -82,7 +82,7 @@ def main():
                                     "group_source_username": group_source_username,
                                     "group_target_username": group_target_username,
                                     "from_date_active": DEFAULT,
-                                    "auto_join": False,  
+                                    "auto_join": True,  
                                     "spam_check": True,  
                                     "wait_time": 120, 
                                     "accounts": []
