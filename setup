@@ -1,0 +1,13 @@
+apt upgrade -y && apt update -y
+apt install git python -y
+pip install -r requirements.txt
+clear
+echo "╭━━━━╮╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮╱╭╮╱╱╱╭━━━━╮╱╱╱╱╭╮"
+echo "┃╭╮╭╮┃╱┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃╱┃┃╱╱╱┃╭╮╭╮┃╱╱╱╱┃┃"
+echo "╰╯┃┃┣┻━┫┃╭━━┳━━┳━┳━━┳╮╭┫┃╱┃┣━╯┣━╯┣━━┳┻┫┃┃┣┻━┳━━┫┃"
+echo "╱╱┃┃┃┃━┫┃┃┃━┫╭╮┃╭┫╭╮┃╰╯┃╰━╯┃╭╮┃╭╮┃┃━┫╭╯┃┃┃╭╮┃╭╮┃┃"
+echo "╱╱╰╯╰━━┻━┻━━┻━╮┣╯╰╯╰┻┻┻┻╯╱╰┻━━┻━━┻━━┻╯╱╰╯╰━━┻━━┻━╯"
+echo "╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃"
+echo "╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯"
+echo "Successfully Member Adding Script Setup Done ✅"
+echo "Telegram Support Chat ~ @PublicSource_Chat"
