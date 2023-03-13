@@ -15,6 +15,11 @@ This project is most optimised Telegram member adder.
 
 - [@saifalisew1508](https://www.github.com/saifalisew1508)
 
+## One Click Installation
+
+```
+apt install git -y && git clone https://github.com/saifalisew1508/TelegramAdderTool && cd TelegramAdderTool && bash setup
+```
 
 ## Installation
 
