@@ -40,6 +40,8 @@ Now Add Accounts Which accounts be Used For Adding
 ```
 RUN python3 make_config.py or python make_config.py
 ```
+- To get group id add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type /id to get group id
+- Remove -100 to your group id then enter in script
 - first  id of group you want to scrap
 - second id of ur group
 - source username is the link or username of group you want to scrap
