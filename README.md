@@ -33,10 +33,7 @@ apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgr
 
 
 ```
-bash git clone https://github.com/saifalisew1508/TelegramAdderTool
-```
-```
- RUN pip3 install -r requirements.txt or pip install -r requirements.txt 
+ RUN pip3 install -r requirements.txt or pip install -r requirements.txt
 ```
 Now Add Accounts Which accounts be Used For Adding 
 ```
