@@ -18,16 +18,18 @@ This project is most optimised Telegram member adder.
 ## One Click Installation
 
 ```
-apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgrade && pkg install python git && git clone https://github.com/saifalisew1508/TelegramAdderTool && bash start
+apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgrade && pkg install python git && git clone https://github.com/saifalisew1508/TelegramAdderTool && cd TelegramAdderTool
 ```
 
-## Installation
+## Commands
 
 - To deploy this project run you must have python3 installed and git
 - use other command if first one give error 
 
 
 > ***Get Api_Id and Api_Hash From [my.telegram.org](https://my.telegram.org)***
+
+> ***To get group id add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type /id to get group id***
 
 
 ```
@@ -40,13 +42,13 @@ Now Add Accounts Which accounts be Used For Adding
 ```
 RUN python3 make_config.py or python make_config.py
 ```
-- To get group id add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type /id to get group id
+
 - Remove -100 to your group id then enter in script
 - first  id of group you want to scrap
 - second id of ur group
 - source username is the link or username of group you want to scrap
 - target username is the link or username of your group
-- if you have api_id and hash for ur numbers type YES otherwise 
+- if you have api_id and hash for ur numbers type YES otherwise NO
 
 ## To Do
 if you did not add number in phone.csv you will be asked for 
