@@ -87,7 +87,7 @@ RUN python3 add_member.py or python add_member.py
 
 ## Features
 ### GitHub Version
-- 10k members scraping 
+- Scrap only 10k members Can't scrap a big group 
 - Faster speed
 - skip admins
 - skip bot
@@ -102,12 +102,14 @@ RUN python3 add_member.py or python add_member.py
 - First open source add member written in pyrogram 
 
 ### Premium Version
-- all from GitHub
-- scrap full group not just 10k
-- 40-80 times faster
+- All Free Version features with some premium features 
+- auto adding after sleep time
+- scrap full group not just 10k. You can scrape upto 100K+
+- 40-80 times faster then free version
 - use parallel get_data
 - scraps contacts and save in .CSV file
-- Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram 
+- Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram.
+- lifetime free script update
 
 
 > ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
