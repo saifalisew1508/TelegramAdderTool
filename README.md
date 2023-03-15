@@ -110,7 +110,7 @@ RUN python3 add_member.py or python add_member.py
 - use parallel get_data
 - scraps contacts and save in .CSV file
 - Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram.
-- lifetime free script update and always got update and new features. 
+- lifetime free updates and always got new features. 
 
 
 > ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
