@@ -86,8 +86,8 @@ RUN python3 add_member.py or python add_member.py
 - dont missmatch pick it will give erros
 
 ## Features
-### GitHub Version
-- Scrap only 10k members Can't scrap a big group 
+### GitHub Free Version
+- Scrap only 10k members Can't scrap a big group more than 10K
 - Faster speed
 - skip admins
 - skip bot
@@ -99,7 +99,8 @@ RUN python3 add_member.py or python add_member.py
 - Unlimited account
 - Account are used with sync so less wait time
 - Cross platform
-- First open source add member written in pyrogram 
+- First open source add member written in pyrogram
+- I only make it stable free version will be never got new features.
 
 ### Premium Version
 - All Free Version features with some premium features 
@@ -109,7 +110,7 @@ RUN python3 add_member.py or python add_member.py
 - use parallel get_data
 - scraps contacts and save in .CSV file
 - Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram.
-- lifetime free script update
+- lifetime free script update and always got update and new features. 
 
 
 > ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
