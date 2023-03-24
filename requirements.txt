@@ -1,3 +1,5 @@
 pyrogram
-tgcrypto
+TgCrypto
 readchar
+pyfiglet
+colorama
