@@ -75,7 +75,7 @@ else:
     "",
      group_target_username)
 
-choice = input(f"\n\nType YES To Add API And HASH Manually\nType NO To Use Default One From Telegram :> ").lower()
+choice = input(f"\n\nType YES To Add API And HASH Manually\nType NO To Use Default One From Telegram Public API:> ").lower()
 
 
 def main():
