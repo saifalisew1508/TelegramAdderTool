@@ -33,11 +33,11 @@ apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgr
 
 
 ```
- RUN pip3 install -r requirements.txt or pip install -r requirements.txt
+ RUN pip3 install -r requirements.txt
 ```
 Now Add Accounts Which accounts be Used For Adding 
 ```
-RUN python3 make_config.py or python make_config.py
+RUN python3 make_config.py
 ```
 
 - Remove -100 to your group id then enter in script
@@ -66,19 +66,19 @@ how many numbers you want to add
 ### AutoJoin and SpamCheck accepts [True/false] editable in  config.py after you run make_confg.py
 
 ```
-RUN python3 login.py or python login.py 
+RUN python3 login.py
 ```
 - Follow on screen instructions
 - Don't use Bot token
 ```
-RUN python3 get_data.py or python get_data.py
+RUN python3 get_data.py
 ```
 - this will extract 10k members from source group
 - there are two option username or id 
 - id will add more member but scraping take long
 - username is best if you want to save time
 ```
-RUN python3 add_member.py or python add_member.py
+RUN python3 add_member.py
 ```
 - member adding has started
 - there two option username/id
@@ -113,7 +113,7 @@ RUN python3 add_member.py or python add_member.py
 - lifetime free updates and always got new features. 
 
 
-> ***For Premium version it's 50USD [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or help and support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
+> ***For Premium version it's 50$ [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or Help and Support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
 
 
 ## FAQ
