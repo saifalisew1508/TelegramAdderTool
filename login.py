@@ -1,7 +1,7 @@
 import asyncio
 import json
 from helper.login import login, create
-from helper.logs import logfrom 
+from helper.logs import log
 from colorama import init, Fore
 import pyfiglet
 import os, random
