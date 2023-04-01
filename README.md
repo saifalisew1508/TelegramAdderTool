@@ -16,9 +16,14 @@ This project is most optimised Telegram member adder.
 - [@saifalisew1508](https://www.github.com/saifalisew1508)
 
 ## One Click Installation
+- For PC & Android 
 
 ```
-apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgrade && pkg install python git && git clone https://github.com/saifalisew1508/TelegramAdderTool && cd TelegramAdderTool
+RUN apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgrade && pkg install python git && git clone https://github.com/saifalisew1508/TelegramAdderTool && cd TelegramAdderTool
+```
+- For Apline (iPhone)
+```
+RUN apk update && apk upgrade && apk add git python && git clone https://github.com/saifalisew1508/TelegramAdderTool && cd TelegramAdderTool
 ```
 
 ## Commands
