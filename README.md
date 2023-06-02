@@ -11,9 +11,10 @@ This project is most optimised Telegram member adder.
 
 
 ## Tutorial Video
-[![Tutorial Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/5003) 
+[![Tutorial Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/6442) 
 
-[![Tutorial PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/6442) 
+[![Tutorial PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/5003) 
+
 
 
 ## Authors
