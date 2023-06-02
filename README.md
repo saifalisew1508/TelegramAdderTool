@@ -10,6 +10,11 @@ This project is most optimised Telegram member adder.
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 
+## Tutorial Video
+[![Tutorial Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/5003) 
+
+[![Tutorial PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/6442) 
+
 
 ## Authors
 
