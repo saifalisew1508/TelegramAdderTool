@@ -36,7 +36,7 @@ async def addlogin(config, gp_s_id):
         except BaseException:
             spam = False
         if check:
-            PYRO.info(f'{phone} login sucess')
+            PYRO.info(f'{phone} \033[1;32;48m login sucess\033[1;37;48m')
             # print('\n',account["phone"], 'login sucess')
             # applist.append({'phone': phone, 'app': app})
             if spam:
