@@ -45,8 +45,7 @@ async def addlogin(config, gp_s_id):
                     messget = await app.get_messages('@spambot', message_ids=(int(messegespam.id) + 1)).text
                     listofnum = [
                         'sorry']
-                    checktext = [x for x in listofnum if (x in messget)]
-                    if checktext:
+                    if checktext := [x for x in listofnum if (x in messget)]:
                         PYRO.info(
                             f'{phone} is limited or disabled! will no be used for this RUN')
                     else:
@@ -60,7 +59,7 @@ async def addlogin(config, gp_s_id):
                     applist.append({'phone': account["phone"], 'app': app})
                 except:
                     PYRO.info(f"{phone} has not joined source chat or RUN get_data.py")
-                
+
         else:
             PYRO.info(f'{phone} login failed')
             await asyncio.sleep(1)
