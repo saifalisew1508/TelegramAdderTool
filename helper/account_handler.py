@@ -24,7 +24,7 @@ def updatecount(count):
 async def add_member(user_id, config, active, method):
     # stop in middle 
     def handler(signum, frame):
-        msg = "\033[1;31;48m Ctrl-c OR Ctrl-z was pressed. Do you really want to exit? y/n \033[1;37;48m"
+        msg = " Ctrl-c OR Ctrl-z was pressed. Do you really want to exit? y/n "
         print(msg)
         res = readchar.readchar()
         if res == 'y':
@@ -32,7 +32,7 @@ async def add_member(user_id, config, active, method):
             PYRO.info('Bye!')
             sys.exit()
         else:
-            PYRO.info(f'Okay then i will continue')
+            PYRO.info(f'Okat then i will continue')
     # create logger
     PYRO = log('PYRO-Adder')
     PYRO.propagate= False
@@ -64,22 +64,21 @@ async def add_member(user_id, config, active, method):
     async def prints():
         updatecount(counterall)
         wait_time = str(waittime / len(applist))
-        wait_time_rounded = round(float(wait_time))
-        PYRO.info(f'sleep: {wait_time_rounded}')
+        PYRO.info(f'sleep: {wait_time}')
         await asyncio.sleep(waittime / len(applist))
     #single line f string for printinf final output
     def printfinal():
-        print(f"{added} : members were added\n {skipped} : members were skipped\n {privacy} : members had privacy enable or not in mutual contact\n {uc} : already in too many channel/group\n {um} : members not in mutual contat\n {bot}:  bot accont skipped")
+        print(f"{added} : members were added\n {skipped} : members were skipped\n {privacy} : members had privacy enable or not in mutual contact\n {uc} : user banned in chat\n {um} : members not in mutual contat\n {bot}:  bot accont skipped")
         if method == 'username':
             PYRO.info(f"{noname} : accont has no usernames")
         updatecount(counterall)
         print(datetime.now().strftime("%H:%M:%S"))
     total_account = len(config['accounts'])
-    PYRO.info(f'Total account trying to login \033[1;32;48m{total_account}\033[1;37;48m')
+    PYRO.info(f'total account trying to login {total_account}')
     await asyncio.sleep(.2)
     applist = await addlogin(config['accounts'], g_s_id)
     logined_account = len(applist)
-    PYRO.info(f"Total logined account \033[1;32;48m{logined_account}\033[1;37;48m")
+    PYRO.info(f"total logind account {logined_account}")
     await asyncio.sleep(1)
     if method[0] == 'u':
         usermethod = "username"
@@ -108,16 +107,16 @@ async def add_member(user_id, config, active, method):
                     exit()
                 elif added == (30 * len(applist)):
                     printfinal()
-                    PYRO.info("Sleeping for 2 hours")
+                    PYRO.info("Sleeping for two hours")
 
                     now = datetime.now()
                     end = datetime.now() + timedelta(hours=2)
                     print("Sleep started at : ", now.strftime("%H:%M:%S"))
                     print("Sleep End at : ", end.strftime("%H:%M:%S"))
                     added = 0
-                    await asyncio.sleep(3600)
-                    PYRO.info("1 hour left")
-                    await asyncio.sleep(3600)
+                    await asyncio.sleep(3500)
+                    PYRO.info("1 hour left to continue")
+                    await asyncio.sleep(3500)
             except Exception as e:
                             PYRO.info(str(e))
             phone = account['phone']
@@ -147,43 +146,42 @@ async def add_member(user_id, config, active, method):
                 printfinal()
                 PYRO.info("Finished")
             try:
-                position = applist.index(account)
+                postiton = applist.index(account)
                 current_user = user_id[counter]["userid"]
-                position2 = len(applist)
-#                PYRO.info(f"trying to add {current_user} by : {phone} account-position : {position + 1} / {position2}")
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;32;48m - Added successfull\033[1;37;48m - Account: {position + 1}/{position2}")
+                postion2 = len(applist)
+                PYRO.info(f"trying to add {current_user} by : {phone} account-postiton : {postiton + 1} / {postion2}")
                 await app.add_chat_members(chat_id=chat_idt, user_ids=user_id[counter][usermethod])
-#                PYRO.info(f"{current_user} added success")
+                PYRO.info(f"{current_user} added success")
                 counter += 1
                 added += 1
                 await prints()
             except UserBannedInChannel: 
                 await app.stop()
                 applist.remove(account)  
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone}\033[1;37;48m \033[1;31;48m - Phone number limited\033[1;37;48m - Account: {position + 1}/{position2}')  
+                PYRO.info(f'phone number limited')  
                 await prints()
             except UsernameNotOccupied:
-                PYRO.info(f"Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User not using username anymorewh\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("user not using username anymore")
                 counter +=1
                 await prints()
             except UserDeactivatedBan:
-                PYRO.info(f"Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User removed from telegram\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("user removed from telegram")
                 counter +=1
                 await prints()
             except UserKicked:
-                PYRO.info(f'Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - This user is banned\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info('this user is banned')
                 counter +=1
                 await prints()
             except PhoneNumberBanned: 
                 await app.stop()
                 applist.remove(account)  
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone}\033[1;37;48m \033[1;31;48m - Phone number banned {phone}\033[1;37;48m - Account: {position + 1}/{position2}')  
+                PYRO.info(f'phone number banned {phone}')  
                 await prints()
             except PeerFlood:
                 applist.remove(account)
                 await app.stop()
                 counter +=1
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone} Removed for this run\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info(f'{phone} removed for this run')
                 try: 
                     await prints()
                 except:
@@ -191,44 +189,44 @@ async def add_member(user_id, config, active, method):
             except UserChannelsTooMuch:
                 counter += 1
                 uc += 1
-                PYRO.info(f'Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User already in too many channel\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info('user already in too many channel')
                 await prints()
             except FloodWait as e:
                 applist.remove(account)
                 await app.stop()
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone}\033[1;37;48m \033[1;31;48m - {e.value} seconds sleep is required for the account {phone}\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info(f'{e.value} seconds sleep is required for the account {phone}')
             except (ChatAdminRequired, ChannelPrivate):
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone}\033[1;37;48m \033[1;31;48m - Chat admin permission required or Channel is private\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("Chat admin permission required or Channel is private")
                 applist.remove(account)
                 await app.stop()
                 await prints()
             except UserRestricted:
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;31;48m{phone}\033[1;37;48m \033[1;31;48m - Removing this restricted account\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("removing this restricted account")
                 applist.remove(account)
                 await app.stop()
             except UserIdInvalid:
-                PYRO.info(f"Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User invalid or you never met user\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info(f"user invalid or u never met user {phone}")
                 counter +=1
                 await prints()
             except UserNotMutualContact:
-                PYRO.info(f'Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User is not mutual contact\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info('user is not mutal contact')
                 counter += 1
                 um += 1
                 await prints()
             except PeerIdInvalid as e:
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - If you see this line many times rerun the get_data.py\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("if You see this line many time rerun the get_data.py")
                 #applist.remove(account)
                 counter +=1
                 await prints()
             except UserPrivacyRestricted:
-                PYRO.info(f"Adding: \033[1;31;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - User have privacy enabled\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info("user have privacy enabled")
                 counter +=1
                 privacy += 1
                 await prints()
             except TimeoutError:
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - Network problem was encounterd\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info('network problem was encounterd')
             except RPCError as e:
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - {phone} Rpc error\033[1;37;48m - Account: {position + 1}/{position2}"")
+                PYRO.info(f"{phone} Rpc error")
                 PYRO.info(f"{e}")
                 m = user_id[counter][usermethod]
                 PYRO.info(f"{m}")
@@ -237,7 +235,7 @@ async def add_member(user_id, config, active, method):
             except OSError:
                 osr +=1
             except BaseException as e:
-                PYRO.info(f"Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - Error info below\033[1;37;48m - Account: {position + 1}/{position2}")
+                PYRO.info(phone, "error info below")
                 PYRO.info(f"{e}")
                 m = user_id[counter][usermethod]
                 PYRO.info(f"{m}")
@@ -245,7 +243,7 @@ async def add_member(user_id, config, active, method):
                 await prints()
             if osr == 30:
                 PYRO.info("osr is 30")
-                PYRO.info(f'Adding: \033[1;32;48m{current_user}\033[1;37;48m by: \033[1;32;48m{phone}\033[1;37;48m \033[1;31;48m - This increase because of internet problem try again later\033[1;37;48m - Account: {position + 1}/{position2}')
+                PYRO.info('This increase beacuse of internet problem try again later')
                 await prints()
                 exit()
                 
