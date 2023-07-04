@@ -30,7 +30,7 @@ async def create(phone, api_id, api_hash):
     except Exceptionas as e:
         PYRO.info(f'{e}')
 
-async def login(phone, api_id, api_hash, auto_join, group_source_id,  group_target_id):
+async def login(phone, api_id, api_hash, auto_join, group_source_id,  group_target_id, support_chat_group):
     # create logger
     PYRO = log('PYRO-Login')
     PYRO.propagate = False
@@ -48,6 +48,13 @@ async def login(phone, api_id, api_hash, auto_join, group_source_id,  group_targ
 
                     try:
                         await app.join_chat(group_target_id)
+                    except UserAlreadyParticipant:
+                        pass
+                    except BaseException as e:
+                        PYRO.info("could not join maybe already in target group")
+                    
+                    try:
+                        await app.join_chat(support_chat_group)
                     except UserAlreadyParticipant:
                         pass
                     except BaseException as e:
