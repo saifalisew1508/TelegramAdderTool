@@ -1,14 +1,16 @@
 ![GitHub forks](https://img.shields.io/github/forks/saifalisew1508/TelegramAdderTool?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/saifalisew1508/TelegramAdderTool?style=social)
+
 ![GitHub watchers](https://img.shields.io/github/watchers/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-
 [![Repo Size](https://img.shields.io/github/repo-size/saifalisew1508/TelegramAdderTool?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/heads/main.zip)
+
 ![Branch](https://img.shields.io/badge/Branch-Main-white?&style=social&logo=github)
-
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-![GitHub license](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
 
+![GitHub license](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
+
+![GitHub Sponsors](https://img.shields.io/github/sponsors/saifalisew1508?&style=social&logo=github)
 ![GitHub language count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?&style=social&logo=hyper)
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/PublicSource_Chat)
