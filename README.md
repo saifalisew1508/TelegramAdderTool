@@ -1,3 +1,25 @@
+![GitHub forks](https://img.shields.io/github/forks/saifalisew1508/TelegramAdderTool?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/saifalisew1508/TelegramAdderTool?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
+
+[![Repo Size](https://img.shields.io/github/repo-size/saifalisew1508/TelegramAdderTool?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/heads/main.zip)
+![Branch](https://img.shields.io/badge/Branch-Main-white?&style=social&logo=github)
+
+![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
+![GitHub license](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
+
+![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
+![GitHub language count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?&style=social&logo=hyper)
+
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/PublicSource_Chat)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/BotXNews)
+
+[![Documentation](https://img.shields.io/badge/Documentations-Video_Tutorial-white?&style=social&logo=gitbook)](https://t.me/PublicSource_Chat/5003)
+
+<a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
+<a href="https://www.paypal.me/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="saifalisew1508" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
+
+
 ## TelegramAdderTool 3.0
 
 This Project Let You add members from Your group to another group or supergroup.
