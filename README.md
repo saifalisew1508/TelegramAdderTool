@@ -1,35 +1,21 @@
 > ***Important Notice ‼️*** `Probably you may face some difficulties in setting up this script and since this is a free demo script, no personal guide can do for this script, you have to watch the public tutor video for its setup.` ***Android 📱*** 👉🏻 [See Tutor Video](https://t.me/PublicSource_Chat/6442) ***Laptop or PC 💻*** 👉🏻 [See Tutor Video](https://t.me/PublicSource_Chat/5003)  `I am a NEET aspirant so I have to study a lot that's why I can't give personal guide to everyone, if you want personal guide then you have to buy paid script because paid script is much easier than this free script and if there is any problem I will personally I can give guide and code of paid script is much faster and optimised than this free script. message me` 👉🏻 ***Instagram*** [@saifaliopp](https://instagram.com/saifaliopp) `or` 👉🏻 ***Telegram*** [@DearSaif](https://t.me/DearSaif) `for buy paid script`
 
+### Stats 
 [![GitHub release (by tag)](https://img.shields.io/github/downloads/saifalisew1508/TelegramAdderTool/TelegramAdder-v3.1/total?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/tags/TelegramAdder-v3.1.zip)
-
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-
 ![GitHub forks](https://img.shields.io/github/forks/saifalisew1508/TelegramAdderTool?style=social)
-
 ![GitHub Repo stars](https://img.shields.io/github/stars/saifalisew1508/TelegramAdderTool?style=social)
-
 ![GitHub watchers](https://img.shields.io/github/watchers/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-
 [![Repo Size](https://img.shields.io/github/repo-size/saifalisew1508/TelegramAdderTool?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/heads/main.zip)
-
 ![Branch](https://img.shields.io/badge/Branch-Main-white?&style=social&logo=github)
-
 ![GitHub license](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/saifalisew1508?&style=social&logo=github)
-
 ![GitHub language count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?&style=social&logo=hyper)
-
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/PublicSource_Chat)
-
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/BotXNews)
-
 [![Documentation](https://img.shields.io/badge/Documentations-Video_Tutorial-white?&style=social&logo=gitbook)](https://t.me/PublicSource_Chat/5003)
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
