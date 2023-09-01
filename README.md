@@ -1,3 +1,5 @@
+> ***Important Notice ‼️*** `Probably you may face some difficulties in setting up this script and since this is a free demo script, no personal guide can do for this script, you have to watch the public tutor video for its setup. I am a NEET aspirant so I have to study a lot that's why I can't give personal guide to everyone, if you want personal guide then you have to buy paid script because paid script is much easier than this free script and if there is any problem I will personally I can give guide and code of paid script is much faster and optimised than this free script. message me` 👉🏻 ***Instagram*** [@saifaliopp](https://instagram.com/saifaliopp) `or` 👉🏻 ***Telegram*** [@DearSaif](https://t.me/DearSaif) `for buy paid script`
+
 [![GitHub release (by tag)](https://img.shields.io/github/downloads/saifalisew1508/TelegramAdderTool/TelegramAdder-v3.1/total?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/tags/TelegramAdder-v3.1.zip)
 
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
