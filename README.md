@@ -1,59 +1,86 @@
-#### Most Important Notice For You ⛔️
-> ***Important Notice ⚠️*** `Probably you may face some difficulties in setting up this script and since this is a free demo script, no personal guide can do for this script, you have to watch the public tutor video for its setup.` ***Android 📱*** 👉🏻 [See Tutor Video](https://t.me/PublicSource_Chat/6442) ***Laptop or PC 💻*** 👉🏻 [See Tutor Video](https://t.me/PublicSource_Chat/5003)  `I am a NEET aspirant so I have to study a lot that's why I can't give personal guide to everyone, if you want personal guide then you have to buy paid script because paid script is much easier than this free script and if there is any problem I will personally I can give guide and code of paid script is much faster and optimised than this free script. message me` 👉🏻 ***Instagram*** [@saifaliopp](https://instagram.com/saifaliopp) `or` 👉🏻 ***Telegram*** [@DearSaif](https://t.me/DearSaif) `for buy paid script`
+## 🚀 Important Notice
 
-### Stats 
-[![GitHub release (by tag)](https://img.shields.io/github/downloads/saifalisew1508/TelegramAdderTool/TelegramAdder-v3.1/total?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/tags/TelegramAdder-v3.1.zip)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-![GitHub forks](https://img.shields.io/github/forks/saifalisew1508/TelegramAdderTool?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/saifalisew1508/TelegramAdderTool?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-[![Repo Size](https://img.shields.io/github/repo-size/saifalisew1508/TelegramAdderTool?&style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/archive/refs/heads/main.zip)
-![Branch](https://img.shields.io/badge/Branch-Main-white?&style=social&logo=github)
-![GitHub license](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?&style=social&logo=github)
-![GitHub Sponsors](https://img.shields.io/github/sponsors/saifalisew1508?&style=social&logo=github)
-![GitHub language count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?&style=social&logo=hyper)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/PublicSource_Chat)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/BotXNews)
-[![Documentation](https://img.shields.io/badge/Documentations-Video_Tutorial-white?&style=social&logo=gitbook)](https://t.me/PublicSource_Chat/5003)
+🔥 **Welcome to the Telegram Members Adding Software !** 🔥
+
+Before you begin, please take a moment to read this important notice.
+
+### 📢 Attention
+
+> **Important Notice ⚠️**
+>
+> If you encounter any difficulties while setting up this script, worry not! We've got you covered. Check out our video tutorials for a step-by-step guide:
+
+📱 **For Android Users:** [See Tutor Video](https://t.me/PublicSource_Chat/6442)
+
+💻 **For Laptop or PC Users:** [See Tutor Video](https://t.me/PublicSource_Chat/5003)
+
+📘 **Note:** As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.
+
+For any inquiries or to purchase the paid script, you can reach out to me on:
+
+📷 **Instagram:** [@saifaliopp](https://instagram.com/saifaliopp)
+
+📡 **Telegram:** [@DearSaif](https://t.me/DearSaif)
+
+### 📊 Stats & Badges
+
+[![GitHub Release](https://img.shields.io/github/release/saifalisew1508/TelegramAdderTool?style=social&logo=github)](https://github.com/saifalisew1508/TelegramAdderTool/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/saifalisew1508/TelegramAdderTool?style=social&logo=github)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/saifalisew1508/TelegramAdderTool?style=social&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/saifalisew1508/TelegramAdderTool?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/saifalisew1508/TelegramAdderTool?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/saifalisew1508/TelegramAdderTool?style=social&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/saifalisew1508/TelegramAdderTool?style=social&logo=github)
+![Branch](https://img.shields.io/badge/Branch-Main-white?style=social&logo=github)
+![GitHub License](https://img.shields.io/github/license/saifalisew1508/TelegramAdderTool?style=social&logo=github)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/saifalisew1508?style=social&logo=github)
+![GitHub Language Count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?style=social&logo=hyper)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?style=social&logo=hugo)
+![Python Version](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?style=social&logo=telegram)](https://t.me/PublicSource_Chat)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?style=social&logo=telegram)](https://t.me/BotXNews)
+[![Documentation](https://img.shields.io/badge/Documentation-Video_Tutorial-white?style=social&logo=gitbook)](https://t.me/PublicSource_Chat/5003)
+
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
 <a href="https://www.paypal.me/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="saifalisew1508" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
 
 
-## TelegramAdderTool 3.0
+# TelegramAdderTool 3.0
 
-This Project Let You add members from Your group to another group or supergroup.
+Welcome to the TelegramAdderTool 3.0 project!
 
-This project is most optimised Telegram member adder.
+This tool allows you to seamlessly add members from one group to another group or supergroup, making it the most optimized Telegram member adder.
 
-<h1 align="center">⚠️ALERT⚠️</h1>
+## ⚠️ Important Notices ⚠️
 
-> **Paid Version** For buy paid version message me on telegram [@saifalisew15o8](https://t.me/saifalisew15o8)
+### Paid Version
 
-> **Disclaimer**  Please Note that this is a research project. I am by no means responsible for any usage of this tool. Use on your own behalf. I'm also not responsible if your accounts get banned due to extensive use of this tool
+To access the paid version of this tool, kindly message me on Telegram: [@saifalisew15o8](https://t.me/saifalisew15o8).
 
-> **Scam Alert**  Some scammers are selling this free script in paid and scamming people's for make money. You don't need to pay anyone for any script, if you want any script in free of cost, you can message me on Whatsapp, Telegram, Instagram and Gmail which mentioned on my git profile. and i never message you for selling anything</samp></p>
+### Disclaimer
 
+Please note that this is a research project, and I am not responsible for any misuse of this tool. Use it responsibly and at your own risk. I am also not responsible if your accounts get banned due to extensive use of this tool.
 
+### Scam Alert
+
+Beware of scammers selling this free script as a paid product and scamming people for money. You do not need to pay anyone for this script. If you want the script for free, feel free to contact me through WhatsApp, Telegram, Instagram, or Gmail, as mentioned on my GitHub profile. I will never message you to sell anything.
 
 ## Acknowledgements
 
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+This project is made possible with the help of [Pyrogram](https://github.com/pyrogram/pyrogram).
 
+## Tutorial Videos
 
-## Tutorial Video
-[![Tutorial Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/6442) 
+Learn how to use the TelegramAdderTool with these tutorial videos:
 
-[![Tutorial PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/5003) 
+- [![Tutorial for Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/6442)
+- [![Tutorial for PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/5003)
 
+## Author
 
+- [![GitHub - saifalisew1508](https://img.shields.io/badge/GitHub-saifalisew1508-blue?logo=github)](https://www.github.com/saifalisew1508)
 
-## Authors
-
-- [@saifalisew1508](https://www.github.com/saifalisew1508)
 
 ## One Click Installation
 - For PC & Android 
@@ -68,19 +95,23 @@ RUN apk update && apk upgrade && apk add git python && git clone https://github.
 
 ## Commands
 
-- To deploy this project run you must have python3 installed and git
-- use other command if first one give error 
+Before deploying this project, ensure that you have Python 3 and Git installed. If you encounter any issues with the first command, try the alternative command.
 
+- To deploy this project, you'll need Python 3 and Git installed.
 
-> ***Get Api_Id and Api_Hash From [my.telegram.org](https://my.telegram.org)***
+> **Get Api_Id and Api_Hash**
 
-> ***To get group id add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type /id to get group id***
+ - Obtain your Api_Id and Api_Hash from [my.telegram.org](https://my.telegram.org).
 
+> **Get Group ID**
 
+ - To get the group ID, add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type `/id` to retrieve the group ID.
+
+```bash
+pip3 install -r requirements.txt
 ```
- RUN pip3 install -r requirements.txt
-```
-Now Add Accounts Which accounts be Used For Adding 
+
+ - Now Add Accounts Which accounts be Used For Adding 
 ```
 RUN python3 make_config.py
 ```
