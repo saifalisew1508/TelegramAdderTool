@@ -14,9 +14,21 @@ Before you begin, please take a moment to read this important notice.
 
 💻 **For Laptop or PC Users:** [See Tutor Video](https://t.me/PublicSource_Chat/5003)
 
-📘 **Note:** As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.
+- 📘 **Note:**
+  - `As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.`
 
-For any inquiries or to purchase the paid script, you can reach out to me on:
+- 📛 **Disclaimer**
+  - `Please be aware that this project is intended for research purposes only. I want to emphasize that I am not liable for any misuse or improper use of this tool. It is essential to use this tool responsibly and within the bounds of ethical and legal guidelines. Any consequences resulting from the excessive or inappropriate use of this tool, including the potential banning of accounts, are the sole responsibility of the user.`
+
+  - `Your understanding and responsible usage of this project are greatly appreciated.`
+ 
+- ⛔️ **Scam Alert**
+  - `Please exercise caution and be vigilant about scammers who may attempt to sell this script as a paid product, deceiving people for financial gain. Rest assured that you do not need to make any payments for access to this script. If you wish to obtain the script free of charge, you are welcome to contact me through WhatsApp, Telegram, Instagram, or Gmail, as indicated on my GitHub profile. I want to emphasize that I will never initiate contact with you to sell anything.`
+
+  - `Your security and trust are of utmost importance, and I am committed to providing this script free of cost to support the community.`
+
+
+🤙🏻 **For any inquiries or to purchase the paid script, you can reach out to me on:**
 
 📷 **Instagram:** [@saifaliopp](https://instagram.com/saifaliopp)
 
@@ -57,29 +69,6 @@ This tool allows you to seamlessly add members from one group to another group o
 ### Paid Version
 
 To access the paid version of this tool, kindly message me on Telegram: [@saifalisew15o8](https://t.me/saifalisew15o8).
-
-### Disclaimer
-
-Please note that this is a research project, and I am not responsible for any misuse of this tool. Use it responsibly and at your own risk. I am also not responsible if your accounts get banned due to extensive use of this tool.
-
-### Scam Alert
-
-Beware of scammers selling this free script as a paid product and scamming people for money. You do not need to pay anyone for this script. If you want the script for free, feel free to contact me through WhatsApp, Telegram, Instagram, or Gmail, as mentioned on my GitHub profile. I will never message you to sell anything.
-
-## Acknowledgements
-
-This project is made possible with the help of [Pyrogram](https://github.com/pyrogram/pyrogram).
-
-## Tutorial Videos
-
-Learn how to use the TelegramAdderTool with these tutorial videos:
-
-- [![Tutorial for Android](https://img.shields.io/badge/Tutorial-Android-brightgreen)](https://t.me/PublicSource_Chat/6442)
-- [![Tutorial for PC](https://img.shields.io/badge/Tutorial-PC-brightgreen)](https://t.me/PublicSource_Chat/5003)
-
-## Author
-
-- [![GitHub - saifalisew1508](https://img.shields.io/badge/GitHub-saifalisew1508-blue?logo=github)](https://www.github.com/saifalisew1508)
 
 
 ## One Click Installation
