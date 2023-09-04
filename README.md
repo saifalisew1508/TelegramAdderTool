@@ -27,8 +27,8 @@ Before you begin, please take a moment to read this important notice.
 
   - `Your security and trust are of utmost importance, and I am committed to providing this script free of cost to support the community.`
 
-
-🤙🏻 **For any inquiries or to purchase the paid script, you can reach out to me on:**
+### **☎️ Contact**
+> **For any inquiries or to purchase the paid script, you can reach out to me on:**
 
 📷 **Instagram:** [@saifaliopp](https://instagram.com/saifaliopp)
 
@@ -56,19 +56,6 @@ Before you begin, please take a moment to read this important notice.
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
 <a href="https://www.paypal.me/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="saifalisew1508" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
-
-
-# TelegramAdderTool 3.0
-
-Welcome to the TelegramAdderTool 3.0 project!
-
-This tool allows you to seamlessly add members from one group to another group or supergroup, making it the most optimized Telegram member adder.
-
-## ⚠️ Important Notices ⚠️
-
-### Paid Version
-
-To access the paid version of this tool, kindly message me on Telegram: [@saifalisew15o8](https://t.me/saifalisew15o8).
 
 
 ## One Click Installation
@@ -151,31 +138,38 @@ RUN python3 add_member.py
 - dont missmatch pick it will give erros
 
 ## Features
+
 ### GitHub Free Version
-- Scrap only 10k members Can't scrap a big group more than 10K
-- Faster speed
-- skip admins
-- skip bot
-- auto check spambot
-- add by username or id
-- auto save last count
-- Better Error Handling 
-- auto_make config
-- Unlimited account
-- Account are used with sync so less wait time
-- Cross platform
-- First open source add member written in pyrogram
-- I only make it stable free version will be never got new features.
+
+🚀 **Key Features:**
+
+- Scrap up to 10,000 members (Large groups are limited to 10K).
+- Enhanced speed for efficient scraping.
+- Ability to skip admins and bots.
+- Automatic spam bot detection.
+- Add members by username or ID.
+- Automatically save the last count.
+- Improved error handling for smoother operation.
+- Auto-generate configuration.
+- Utilize unlimited accounts with synchronized operation to reduce wait time.
+- Cross-platform compatibility.
+- The first open-source member adder written in Pyrogram.
+- Stable free version with no new feature additions.
 
 ### Premium Version
-- All Free Version features with some premium features 
-- auto adding after sleep time
-- scrap full group not just 10k. You can scrape upto 100K+
-- 40-80 times faster then free version
-- use parallel get_data
-- scraps contacts and save in .CSV file
-- Setup help contact [@PublicSource_Chat](https://t.me/PublicSource_Chat) on telegram.
-- lifetime free updates and always got new features. 
+
+🌟 **Additional Premium Features:**
+
+- All features of the Free Version, plus premium additions.
+- Auto-add members after specified sleep intervals.
+- Scrap entire groups, not just 10,000 members. Capable of scraping up to 100,000+ members.
+- Achieve 40-80 times faster performance compared to the free version.
+- Utilize parallel data retrieval for increased efficiency.
+- Scrape contacts and save them in a .CSV file.
+- Access setup assistance by contacting [@PublicSource_Chat](https://t.me/PublicSource_Chat) on Telegram.
+- Enjoy lifetime free updates and continuous feature enhancements.
+
+Choose the version that best suits your needs and enjoy the powerful capabilities of TelegramAdderTool!
 
 
 > ***For Premium version it's 50$ [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or Help and Support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
