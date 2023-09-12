@@ -140,26 +140,26 @@ RUN python3 add_member.py
 - choose what you picked above
 - dont missmatch pick it will give erros
 
-## Features
+## Features ⁉️
 
-### GitHub Free Version
+> GitHub Free Version 💗
 
-🚀 **Key Features:**
+- 🚀 **Key Features:**
 
-- Scrap up to 10,000 members (Large groups are limited to 10K).
-- Enhanced speed for efficient scraping.
-- Ability to skip admins and bots.
-- Automatic spam bot detection.
-- Add members by username or ID.
-- Automatically save the last count.
-- Improved error handling for smoother operation.
-- Auto-generate configuration.
-- Utilize unlimited accounts with synchronized operation to reduce wait time.
-- Cross-platform compatibility.
-- The first open-source member adder written in Pyrogram.
-- Stable free version with no new feature additions.
+  - Scrap up to 10,000 members (Large groups are limited to 10K).
+  - Enhanced speed for efficient scraping.
+  - Ability to skip admins and bots.
+  - Automatic spam bot detection.
+  - Add members by username or ID.
+  - Automatically save the last count.
+  - Improved error handling for smoother operation.
+  - Auto-generate configuration.
+  - Utilize unlimited accounts with synchronized operation to reduce wait time.
+  - Cross-platform compatibility.
+  - The first open-source member adder written in Pyrogram.
+  - Stable free version with no new feature additions.
 
-### Premium Version
+> Premium Version 🤑
 
 - 🌟 **Additional Premium Features:**
 
