@@ -15,17 +15,17 @@ Before you begin, please take a moment to read this important notice.
 [![Setup Guide](https://img.shields.io/badge/Windows_Setup_Guide-Get_Video-white?style=social&logo=windows)](https://t.me/PublicSource_Chat/5003)
 
 - 📘 **Note:**
-  - `As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.`
+  - ***As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.***
 
 - 📛 **Disclaimer**
-  - `Please be aware that this project is intended for research purposes only. I want to emphasize that I am not liable for any misuse or improper use of this tool. It is essential to use this tool responsibly and within the bounds of ethical and legal guidelines. Any consequences resulting from the excessive or inappropriate use of this tool, including the potential banning of accounts, are the sole responsibility of the user.`
+  - ***Please be aware that this project is intended for research purposes only. I want to emphasize that I am not liable for any misuse or improper use of this tool. It is essential to use this tool responsibly and within the bounds of ethical and legal guidelines. Any consequences resulting from the excessive or inappropriate use of this tool, including the potential banning of accounts, are the sole responsibility of the user.***
 
-  - `Your understanding and responsible usage of this project are greatly appreciated.`
+  - ***Your understanding and responsible usage of this project are greatly appreciated.***
  
 - ⛔️ **Scam Alert**
-  - `Please exercise caution and be vigilant about scammers who may attempt to sell this script as a paid product, deceiving people for financial gain. Rest assured that you do not need to make any payments for access to this script. If you wish to obtain the script free of charge, you are welcome to contact me through WhatsApp, Telegram, Instagram, or Gmail, as indicated on my GitHub profile. I want to emphasize that I will never initiate contact with you to sell anything.`
+  - ***Please exercise caution and be vigilant about scammers who may attempt to sell this script as a paid product, deceiving people for financial gain. Rest assured that you do not need to make any payments for access to this script. If you wish to obtain the script free of charge, you are welcome to contact me through WhatsApp, Telegram, Instagram, or Gmail, as indicated on my GitHub profile. I want to emphasize that I will never initiate contact with you to sell anything.***
 
-  - `Your security and trust are of utmost importance, and I am committed to providing this script free of cost to support the community.`
+  - ***Your security and trust are of utmost importance, and I am committed to providing this script free of cost to support the community.***
 
 ### **☎️ Contact**
 > **For any inquiries or to purchase the paid script, you can reach out to me on:**
