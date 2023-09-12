@@ -10,9 +10,9 @@ Before you begin, please take a moment to read this important notice.
 >
 > If you encounter any difficulties while setting up this script, worry not! We've got you covered. Check out our video tutorials for a step-by-step guide:
 
-📱 **For Android Users:** [See Tutor Video](https://t.me/PublicSource_Chat/6442)
+[![Setup Guide](https://img.shields.io/badge/Android_Setup_Guide-Get_Video-white?style=social&logo=android)](https://t.me/PublicSource_Chat/6442)
 
-💻 **For Laptop or PC Users:** [See Tutor Video](https://t.me/PublicSource_Chat/5003)
+[![Setup Guide](https://img.shields.io/badge/Windows_Setup_Guide-Get_Video-white?style=social&logo=windows)](https://t.me/PublicSource_Chat/5003)
 
 - 📘 **Note:**
   - `As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.`
