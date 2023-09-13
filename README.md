@@ -30,10 +30,10 @@ Before you begin, please take a moment to read this important notice.
 ### **☎️ Contact**
 > **For any inquiries or to purchase the paid script, you can reach out to me on:**
 
-[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@SexySaif-white?style=social&logo=telegram)](https://t.me/SexySaif)
-[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@DearSaif-white?style=social&logo=telegram)](https://t.me/DearSaif)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group_@PublicSource__Chat-white?style=social&logo=telegram)](https://t.me/PublicSource_Chat)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel_@BotXNews-white?style=social&logo=telegram)](https://t.me/BotXNews)
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@SexySaif-white?style=social&logo=telegram)](https://https://telegram.dog/SexySaif)
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@DearSaif-white?style=social&logo=telegram)](https://telegram.dog/DearSaif)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group_@PublicSource__Chat-white?style=social&logo=telegram)](https://telegram.dog/PublicSource_Chat)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel_@BotXNews-white?style=social&logo=telegram)](https://telegram.dog/BotXNews)
 [![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@Saifaliopp-white?style=social&logo=instagram)](https://instagram.com/saifaliopp)
 [![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@saiffff2004-white?style=social&logo=instagram)](https://instagram.com/saiffff2005)
 [![Instagram Contact](https://img.shields.io/badge/WhatsApp-Contact_+919708973259-white?style=social&logo=whatsapp)](https://wa.me/919708973259?text=Hello%20Saif%2C%20%0AI%20saw%20your%20TelegramAdderTool%20on%20github%20I%20need%20some%20help%20)
@@ -54,7 +54,7 @@ Before you begin, please take a moment to read this important notice.
 ![GitHub Language Count](https://img.shields.io/github/languages/count/saifalisew1508/TelegramAdderTool?style=social&logo=hyper)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?style=social&logo=hugo)
 ![Python Version](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-[![Documentation](https://img.shields.io/badge/Documentation-Video_Tutorial-white?style=social&logo=gitbook)](https://t.me/PublicSource_Chat/5003)
+[![Documentation](https://img.shields.io/badge/Documentation-Video_Tutorial-white?style=social&logo=google)](https://t.me/PublicSource_Chat/5003)
 
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
@@ -180,29 +180,17 @@ Choose the version that best suits your needs and enjoy the powerful capabilitie
 
 ## FAQ
 
-#### How Many Member 20 Account can add?
-
-600 - 1000 Member daily
-
-### Error on login.py
-
-use correct username for channel
-
-### Error on get_data.py
-
-raise a issue or use telegram support
-
-#### How Many Account are recommended 
-
-I will Suggest 15 but depends on ur biggest
-
-Buy account from : [@PublicSource_Chat](http://t.me/PublicSource_Chat) on Telegram
-
-Check @spambot on Telegram if ur account is limited
-
-#### 6th point from installation
-
-option are
+  - How Many Member 20 Account can add?
+  - 600 - 1000 Member daily
+  - Error on login.py
+  - use correct username for channel
+  - Error on get_data.py
+  -raise a issue or use telegram support
+  - How Many Account are recommended 
+  - I will Suggest 15 but depends on ur biggest
+  - Buy account from : [@PublicSource_Chat](http://t.me/PublicSource_Chat) on Telegram
+  - Check @spambot on Telegram if ur account is limited
+  - option are
 ```
  UserStatus.LONG_AGO - User was seen long ago
  UserStatus.LAST_MONTH - User was seen last month
@@ -230,7 +218,7 @@ bc1qgfqtujdmdeaky0n80rswnfv8p7x62shspfl9rc
 ```
 > ***My upi id***
 ```
-Saif.9@paytm
+9708973259@ybl
 ```
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
@@ -240,25 +228,16 @@ Saif.9@paytm
 
 > **This tool is official and completely free to use. Do not buy if anyone tries to sell by copying script**
 
-
 <h2 align="center">Visitors Counts👀</h2>
 <a href="https://github.com/saifalisew1508/TelegramAdderTool"><img alt="Cute Count" src="https://count.getloli.com/get/@TelegramAdderTool?theme=rule34" /></a>
-
 
 ## Contributing:
 
 * Fork the repo on Github
-
 * Clone the repo using `git clone addmember-telegram`
-
 * Make changes and stage the files: `git add .`
-
 * Commit the changes: `git commit -m "Changed a few things"`
-
 * Push the changes to your Github repo: `git push -u origin main`
-
 * Submit a pull request.
-
 * Don't add feature writen in donation
-
 * Don't sell the code 😅😡
