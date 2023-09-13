@@ -92,7 +92,7 @@ pip3 install -r requirements.txt
 
  - Now Add Accounts Which accounts be Used For Adding 
 ```
-RUN python3 make_config.py
+python3 make_config.py
 ```
 
 - Remove -100 to your group id then enter in script
@@ -121,19 +121,19 @@ how many numbers you want to add
 ### AutoJoin and SpamCheck accepts [True/false] editable in  config.py after you run make_confg.py
 
 ```
-RUN python3 login.py
+python3 login.py
 ```
 - Follow on screen instructions
 - Don't use Bot token
 ```
-RUN python3 get_data.py
+python3 get_data.py
 ```
 - this will extract 10k members from source group
 - there are two option username or id 
 - id will add more member but scraping take long
 - username is best if you want to save time
 ```
-RUN python3 add_member.py
+python3 add_member.py
 ```
 - member adding has started
 - there two option username/id
