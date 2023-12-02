@@ -8,7 +8,7 @@ from init import rs, w, r, banner, clr, lg
 clr()
 banner()
 print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@PrinceXofficial {r}| Instagram: {w}@saifalisew1508{rs}\n")
+print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
 print(
     f"  {r}For Get Your Group ID Add {w}@MissCutieRobot {r}To Your Group And Send /id In Your Group After Get Your Group ID Remove -100 From Your Group ID Before Enter In Script\n"
 )
