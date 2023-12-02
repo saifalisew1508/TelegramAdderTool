@@ -30,12 +30,12 @@ Before you begin, please take a moment to read this important notice.
 ### **☎️ Contact**
 > **For any inquiries or to purchase the paid script, you can reach out to me on:**
 
-[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@SexySaif-white?style=social&logo=telegram)](https://https://telegram.dog/SexySaif)
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@LostedPerson-white?style=social&logo=telegram)](https://telegram.dog/LostedPerson)
 [![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@DearSaif-white?style=social&logo=telegram)](https://telegram.dog/DearSaif)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group_@PublicSource__Chat-white?style=social&logo=telegram)](https://telegram.dog/PublicSource_Chat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel_@BotXNews-white?style=social&logo=telegram)](https://telegram.dog/BotXNews)
 [![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@Saifaliopp-white?style=social&logo=instagram)](https://instagram.com/saifaliopp)
-[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@saiffff2004-white?style=social&logo=instagram)](https://instagram.com/saiffff2005)
+[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@__Prince.Babu__-white?style=social&logo=instagram)](https://instagram.com/_prince.babu_)
 [![Instagram Contact](https://img.shields.io/badge/WhatsApp-Contact_+919708973259-white?style=social&logo=whatsapp)](https://wa.me/919708973259?text=Hello%20Saif%2C%20%0AI%20saw%20your%20TelegramAdderTool%20on%20github%20I%20need%20some%20help%20)
 
 
@@ -175,7 +175,7 @@ python3 add_member.py
 Choose the version that best suits your needs and enjoy the powerful capabilities of TelegramAdderTool!
 
 
-> ***For Premium version it's 50$ [US] Contact, [@PrinceXofficial](http://t.me/PrinceXofficial) on Telegram Or Help and Support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
+> ***For Premium version it's 50$ [US] Contact, [@LostedPerson](http://t.me/LostedPerson) on Telegram Or Help and Support [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
 
 
 ## FAQ
