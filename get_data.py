@@ -9,7 +9,7 @@ from init import rs, w, r, banner, clr
 clr()
 banner()
 print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@PrinceXofficial {r}| Instagram: {w}@saifalisew1508{rs}\n")
+print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
 
 
 # workdir = 'session/'
