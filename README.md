@@ -34,8 +34,8 @@ Before you begin, please take a moment to read this important notice.
 [![Telegram Contact](https://img.shields.io/badge/Telegram-Contact_@DearSaif-white?style=social&logo=telegram)](https://telegram.dog/DearSaif)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group_@PublicSource__Chat-white?style=social&logo=telegram)](https://telegram.dog/PublicSource_Chat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel_@BotXNews-white?style=social&logo=telegram)](https://telegram.dog/BotXNews)
-[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@Saifaliopp-white?style=social&logo=instagram)](https://instagram.com/saifaliopp)
-[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@__Prince.Babu__-white?style=social&logo=instagram)](https://instagram.com/_prince.babu_)
+[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@SAIFALIOPP-white?style=social&logo=instagram)](https://instagram.com/saifaliopp)
+[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@ATHEIST.BALAK-white?style=social&logo=instagram)](https://instagram.com/_prince.babu_)
 [![Instagram Contact](https://img.shields.io/badge/WhatsApp-Contact_+919708973259-white?style=social&logo=whatsapp)](https://wa.me/919708973259?text=Hello%20Saif%2C%20%0AI%20saw%20your%20TelegramAdderTool%20on%20github%20I%20need%20some%20help%20)
 
 
@@ -84,7 +84,7 @@ Before deploying this project, ensure that you have Python 3 and Git installed. 
 
 > **Get Group ID**
 
- - To get the group ID, add [@MissCutieRobot](https://t.me/MissCutieRobot) to your group and type `/id` to retrieve the group ID.
+ - To get the group ID, add [@MissCutie_Bot](https://t.me/MissCutie_Bot) to your group and type `/id` to retrieve the group ID.
 
 ```bash
 pip3 install -r requirements.txt
@@ -210,15 +210,15 @@ Yes it's called donation version
 ### Donate Me
 > ***My ETH wallet address***
 ```
-0x0fBcb24DC8588c63bdbC126e2192aB609c7dF528
+Not Available For Now Contact me On Telegram at @DearSaif
 ```
 > ***My BTC wallet address***
 ```
-bc1qgfqtujdmdeaky0n80rswnfv8p7x62shspfl9rc
+Not Available For Now Contact me On Telegram at @DearSaif
 ```
 > ***My upi id***
 ```
-9708973259@ybl
+md.saif2752@oksbi
 ```
 
 <a href="https://ko-fi.com/saifalisew1508" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="saifalisew1508" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
