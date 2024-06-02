@@ -35,8 +35,7 @@ Before you begin, please take a moment to read this important notice.
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group_@PublicSource__Chat-white?style=social&logo=telegram)](https://telegram.dog/PublicSource_Chat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel_@BotXNews-white?style=social&logo=telegram)](https://telegram.dog/BotXNews)
 [![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@SAIFALIOPP-white?style=social&logo=instagram)](https://instagram.com/saifaliopp)
-[![Instagram Contact](https://img.shields.io/badge/Instagram-Contact_@ATHEIST.BALAK-white?style=social&logo=instagram)](https://instagram.com/_prince.babu_)
-[![Instagram Contact](https://img.shields.io/badge/WhatsApp-Contact_+919708973259-white?style=social&logo=whatsapp)](https://wa.me/919708973259?text=Hello%20Saif%2C%20%0AI%20saw%20your%20TelegramAdderTool%20on%20github%20I%20need%20some%20help%20)
+[![WhatsApp Contact](https://img.shields.io/badge/WhatsApp-Contact_+919708973259-white?style=social&logo=whatsapp)](https://wa.me/919708973259?text=Hello%20Saif%2C%20%0AI%20saw%20your%20TelegramAdderTool%20on%20github%20I%20need%20some%20help%20)
 
 
 ### 📊 Stats & Badges
