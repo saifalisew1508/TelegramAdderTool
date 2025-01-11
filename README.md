@@ -154,6 +154,11 @@ python3 add_member.py
   - Scrape contacts and save them in a .CSV file.
   - Access setup assistance by contacting [@PublicSource_Chat](https://t.me/PublicSource_Chat) on Telegram.
   - Enjoy lifetime free updates and continuous feature enhancements.
+  - Scraping members from hidden members group
+  - Mass DM ( Direct Message ) Features
+  - Mass Report any channel or Group
+  - Control logins accounts to join or leave any channels or group.
+  - Add accounts in script easily just using session file and phone.csv
 
 Choose the version that best suits your needs and enjoy the powerful capabilities of TelegramAdderTool!
 
