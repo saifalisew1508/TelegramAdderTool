@@ -13,7 +13,7 @@ Before you begin, please take a moment to read this important notice.
 [![Setup Guide](https://img.shields.io/badge/Android_Setup_Guide-Get_Video-white?style=social&logo=android)](https://t.me/PublicSource_Chat/6442) [![Setup Guide](https://img.shields.io/badge/Windows_Setup_Guide-Get_Video-white?style=social&logo=windows)](https://t.me/PublicSource_Chat/5003)
 
 - 📘 **Note:**
-  - ***As a NEET aspirant, I'm dedicated to my studies, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.***
+  - ***As a Medical Student & doing part-time job in hospital, I'm dedicated to my studies & job, and I can't provide personal guidance for everyone. If you're looking for a more streamlined and optimized experience, consider purchasing our premium script. With the paid version, I'll personally assist you, and the code is faster and more efficient.***
 
 - 📛 **Disclaimer:**
   - ***Please be aware that this project is intended for research purposes only. I want to emphasize that I am not liable for any misuse or improper use of this tool. It is essential to use this tool responsibly and within the bounds of ethical and legal guidelines. Any consequences resulting from the excessive or inappropriate use of this tool, including the potential banning of accounts, are the sole responsibility of the user.***
@@ -228,4 +228,4 @@ md.saif2752@oksbi
 - Push the changes to your GitHub repo: `git push -u origin main`
 - Submit a pull request.
 - Don't add features written in the donation.
-- Don't sell the code 😅😡
+- Don't sell the code for scam anyone just spread it for free😅😡
