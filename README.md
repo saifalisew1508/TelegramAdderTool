@@ -162,7 +162,7 @@ python3 add_member.py
 
 Choose the version that best suits your needs and enjoy the powerful capabilities of TelegramAdderTool!
 
-> ***For the Premium version, it's $50 [US]. Contact [@LostedPerson](http://t.me/LostedPerson) on Telegram or for help and support, [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
+> ***For the Premium version, it's $140 [US]. Contact [@LostedPerson](http://t.me/LostedPerson) on Telegram or for help and support, [@PublicSource_Chat](https://t.me/PublicSource_Chat)***
 
 ---
 
@@ -195,6 +195,8 @@ Other issues should be clear from the name.
 Yes, it's called the donation version.
 
 ### Donate to Me
+
+- Please Donate to me for continuous updates in free version
 
 > ***My ETH wallet address:***
 ```
