@@ -1,10 +1,15 @@
 import asyncio
-import json, os
+import json
+import os
 import ast
 import signal
 import sys
 import readchar
 import platform
+from datetime import datetime, timedelta
+from pathlib import Path
+import logging
+
 from pyrogram import Client, enums
 from pyrogram.errors import (
     YouBlockedUser,
@@ -21,44 +26,36 @@ from pyrogram.errors import (
     PhoneNumberBanned,
     UserChannelsTooMuch,
     UserKicked,
-    UserDeactivatedBan,
+    UserDeactivated,  # updated: was UserDeactivatedBan
     UsernameNotOccupied,
-    UserBannedInChannel,
 )
-from pathlib import Path
 from helper.applist import addlogin
-from datetime import datetime, timedelta
-import logging
 from helper.logs import log
 
-
-#  update the py for info
+# update the py for info
 def updatecount(count):
     with open("current_count.py", "w") as g:
         g.write(str(count))
-        g.close()
-
-
-# account rotation
 
 
 async def add_member(user_id, config, active, method):
-    # stop in middle
+    # Stop gracefully when a signal is received.
     def handler(signum, frame):
         msg = " Ctrl-c OR Ctrl-z was pressed. Do you really want to exit? y/n "
         print(msg)
         res = readchar.readchar()
-        if res == "y":
+        if res.lower() == "y":
             updatecount(counterall)
             PYRO.info("Bye!")
             sys.exit()
         else:
-            PYRO.info(f"Okat then i will continue")
+            PYRO.info("Okay then, I will continue.")
 
-    # create logger
+    # Create logger
     PYRO = log("PYRO-Adder")
     PYRO.propagate = False
-    # check if need continue
+
+    # Check if need to continue (read the current counter)
     try:
         with open("current_count.py") as f:
             data = f.read()
@@ -68,55 +65,55 @@ async def add_member(user_id, config, active, method):
             skipped2 = counterall["skipped"]
             privacy2 = counterall["privacy"]
             uc2 = counterall["already in too many channel/group"]
-    except:
-        counter = added2 = privacy2 = uc2 = skipped2 = 0
+    except Exception:
+        counter = added2 = skipped2 = privacy2 = uc2 = 0
+        counterall = {}
 
     chat_idt = int(str(-100) + str(config["group_target"]))
     g_s_id = int(str(-100) + str(config["group_source"]))
 
-    # all zero value avar initali
+    # Initialize counters
     added = skipped = privacy = uc = um = bot = noname = osr = 0
-    try:
-        waittime = config["wait_time"]
-    except:
-        waittime = 10
+    waittime = config.get("wait_time", 10)
 
-    # single function for sleep and time logger.info
     async def prints():
         updatecount(counterall)
-        wait_time = str(waittime / len(applist))
-        PYRO.info(f"sleep: {wait_time}")
-        await asyncio.sleep(waittime / len(applist))
+        wait_time = waittime / len(applist)
+        PYRO.info(f"Sleeping: {wait_time} seconds")
+        await asyncio.sleep(wait_time)
 
-    # single line f string for printinf final output
     def printfinal():
         print(
-            f"{added} : members were added\n {skipped} : members were skipped\n {privacy} : members had privacy enable or not in mutual contact\n {uc} : user banned in chat\n {um} : members not in mutual contat\n {bot}:  bot accont skipped"
+            f"{added} : members were added\n"
+            f"{skipped} : members were skipped\n"
+            f"{privacy} : members had privacy enabled or not in mutual contact\n"
+            f"{uc} : user banned in chat\n"
+            f"{um} : members not in mutual contact\n"
+            f"{bot}: bot account skipped"
         )
         if method == "username":
-            PYRO.info(f"{noname} : accont has no usernames")
+            PYRO.info(f"{noname} : account has no username")
         updatecount(counterall)
         print(datetime.now().strftime("%H:%M:%S"))
 
     total_account = len(config["accounts"])
-    PYRO.info(f"total account trying to login {total_account}")
+    PYRO.info(f"Total accounts trying to login: {total_account}")
     await asyncio.sleep(0.2)
     applist = await addlogin(config["accounts"], g_s_id)
     logined_account = len(applist)
-    PYRO.info(f"total logind account {logined_account}")
+    PYRO.info(f"Total logged-in accounts: {logined_account}")
     await asyncio.sleep(1)
-    if method[0] == "u":
-        usermethod = "username"
-    else:
-        usermethod = "userid"
+
+    usermethod = "username" if method[0] == "u" else "userid"
     print(len(user_id), counter)
-    # stoer
+
     if platform.system() == "Windows":
         signal.signal(signal.SIGTERM, handler)
         signal.signal(signal.SIGINT, handler)
     else:
         signal.signal(signal.SIGINT, handler)
         signal.signal(signal.SIGTSTP, handler)
+
     while len(user_id) - counter > 1:
         leftmem = len(user_id) - counter
         counterall = {
@@ -129,17 +126,16 @@ async def add_member(user_id, config, active, method):
         }
         for account in applist:
             try:
-                if applist == False:
+                if not applist:
                     printfinal()
                     exit()
                 elif added == (30 * len(applist)):
                     printfinal()
                     PYRO.info("Sleeping for two hours")
-
                     now = datetime.now()
-                    end = datetime.now() + timedelta(hours=2)
-                    print("Sleep started at : ", now.strftime("%H:%M:%S"))
-                    print("Sleep End at : ", end.strftime("%H:%M:%S"))
+                    end = now + timedelta(hours=2)
+                    print("Sleep started at: ", now.strftime("%H:%M:%S"))
+                    print("Sleep ends at: ", end.strftime("%H:%M:%S"))
                     added = 0
                     await asyncio.sleep(3500)
                     PYRO.info("1 hour left to continue")
@@ -164,53 +160,55 @@ async def add_member(user_id, config, active, method):
                             counter += 1
                             bot += 1
                             updatecount(counterall)
-                            PYRO.info("bot skipped")
+                            PYRO.info("Bot skipped")
                         if user_id[counter][usermethod] == "None":
                             counter += 1
                             noname += 1
                             updatecount(counterall)
-                            PYRO.info("NO USERNAME found for this user skipped")
-                    except:
+                            PYRO.info("No USERNAME found for this user; skipped")
+                    except Exception:
                         printfinal()
                         PYRO.info("Finished")
-            except:
+                        return
+            except Exception:
                 printfinal()
                 PYRO.info("Finished")
+                return
             try:
                 postiton = applist.index(account)
                 current_user = user_id[counter]["userid"]
                 postion2 = len(applist)
                 PYRO.info(
-                    f"trying to add {current_user} by : {phone} account-postiton : {postiton + 1} / {postion2}"
+                    f"Trying to add {current_user} using account {phone} (position: {postiton + 1} / {postion2})"
                 )
                 await app.add_chat_members(
                     chat_id=chat_idt, user_ids=user_id[counter][usermethod]
                 )
-                PYRO.info(f"{current_user} added success")
+                PYRO.info(f"{current_user} added successfully")
                 counter += 1
                 added += 1
                 await prints()
             except UserBannedInChannel:
                 await app.stop()
                 applist.remove(account)
-                PYRO.info(f"phone number limited")
+                PYRO.info("Phone number limited")
                 await prints()
             except UsernameNotOccupied:
-                PYRO.info("user not using username anymore")
+                PYRO.info("User not using username anymore")
                 counter += 1
                 await prints()
-            except UserDeactivatedBan:
-                PYRO.info("user removed from telegram")
+            except UserDeactivated:
+                PYRO.info("User removed from Telegram")
                 counter += 1
                 await prints()
             except UserKicked:
-                PYRO.info("this user is banned")
+                PYRO.info("This user is banned")
                 counter += 1
                 await prints()
             except PhoneNumberBanned:
                 await app.stop()
                 applist.remove(account)
-                PYRO.info(f"phone number banned {phone}")
+                PYRO.info(f"Phone number banned: {phone}")
                 await prints()
             except PeerFlood:
                 applist.remove(account)
@@ -219,51 +217,48 @@ async def add_member(user_id, config, active, method):
                 PYRO.info(f"{phone} removed for this run")
                 try:
                     await prints()
-                except:
+                except Exception:
                     printfinal()
             except UserChannelsTooMuch:
                 counter += 1
                 uc += 1
-                PYRO.info("user already in too many channel")
+                PYRO.info("User already in too many channels")
                 await prints()
             except FloodWait as e:
                 applist.remove(account)
                 await app.stop()
-                PYRO.info(
-                    f"{e.value} seconds sleep is required for the account {phone}"
-                )
+                PYRO.info(f"{e.value} seconds sleep required for account {phone}")
             except (ChatAdminRequired, ChannelPrivate):
                 PYRO.info("Chat admin permission required or Channel is private")
                 applist.remove(account)
                 await app.stop()
                 await prints()
             except UserRestricted:
-                PYRO.info("removing this restricted account")
+                PYRO.info("Removing this restricted account")
                 applist.remove(account)
                 await app.stop()
             except UserIdInvalid:
-                PYRO.info(f"user invalid or u never met user {phone}")
+                PYRO.info(f"User invalid or never met user {phone}")
                 counter += 1
                 await prints()
             except UserNotMutualContact:
-                PYRO.info("user is not mutal contact")
+                PYRO.info("User is not a mutual contact")
                 counter += 1
                 um += 1
                 await prints()
-            except PeerIdInvalid as e:
-                PYRO.info("if You see this line many time rerun the get_data.py")
-                # applist.remove(account)
+            except PeerIdInvalid:
+                PYRO.info("If you see this line many times, rerun the get_data.py script")
                 counter += 1
                 await prints()
             except UserPrivacyRestricted:
-                PYRO.info("user have privacy enabled")
+                PYRO.info("User has privacy enabled")
                 counter += 1
                 privacy += 1
                 await prints()
             except TimeoutError:
-                PYRO.info("network problem was encounterd")
+                PYRO.info("Network problem encountered")
             except RPCError as e:
-                PYRO.info(f"{phone} Rpc error")
+                PYRO.info(f"{phone} encountered an RPC error")
                 PYRO.info(f"{e}")
                 m = user_id[counter][usermethod]
                 PYRO.info(f"{m}")
@@ -279,7 +274,7 @@ async def add_member(user_id, config, active, method):
                 counter += 1
                 await prints()
             if osr == 30:
-                PYRO.info("osr is 30")
-                PYRO.info("This increase beacuse of internet problem try again later")
+                PYRO.info("OSError count reached 30")
+                PYRO.info("This might be due to internet problems; try again later")
                 await prints()
                 exit()
