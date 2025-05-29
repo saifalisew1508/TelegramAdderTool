@@ -1,31 +1,53 @@
-import asyncio
 import json
-from pathlib import Path
+import os
+from pyrogram import Client
+from pyrogram.errors import FloodWait
+from time import sleep
 
-from helper.data import get_data
-from helper.filter import filterus
-from init import rs, w, r, banner, clr
+CONFIG_FILE = "config.json"
+OUTPUT_FILE = "data/users.json"
 
-clr()
-banner()
-print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
+def load_config():
+    with open(CONFIG_FILE, "r") as f:
+        return json.load(f)
 
+def save_users(users):
+    os.makedirs("data", exist_ok=True)
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(users, f, indent=4)
+    print(f"\n✅ Saved {len(users)} users to {OUTPUT_FILE}")
 
-# workdir = 'session/'
-method = input("Choose Method Username or ID: ").lower()
+def get_group_members():
+    config = load_config()
+    api_id = config["api_id"]
+    api_hash = config["api_hash"]
+    session_name = config.get("session_name", "my_session")
 
+    group_username = input("📥 Enter the group username (with @): ").strip()
+    if not group_username.startswith("@"):
+        print("❌ Please enter a valid group username (starting with @)")
+        return
 
-async def main():
-    root = Path.cwd()
-    config = json.load(open(root / "config.json"))
-    gp_s_id = int(str("-100") + str(config["group_source"]))
-    gp_t_id = int(str("-100") + str(config["group_target"]))
-    path_group = root / "data" / "source_user.json"
-    path_group2 = root / "data" / "target_user.json"
-    path_group4 = root / "data" / "source_admin.json"
-    await get_data(gp_s_id, gp_t_id, config, method)
-    filterus(path_group, path_group2, path_group4, root)
+    app = Client(session_name, api_id=api_id, api_hash=api_hash)
 
+    with app:
+        users = []
+        print("🔍 Collecting members from group...")
 
-asyncio.run(main())
+        try:
+            for member in app.get_chat_members(group_username):
+                user_id = member.user.id
+                users.append({"user_id": user_id})
+                print(f"➕ Found user ID: {user_id}")
+                sleep(1)  # Slow scraping to avoid flood
+        except FloodWait as e:
+            print(f"⏳ Flood wait! Sleeping for {e.value} seconds.")
+            sleep(e.value)
+        except Exception as e:
+            print(f"❌ Error occurred: {e}")
+            return
+
+    save_users(users)
+
+if __name__ == "__main__":
+    get_group_members()
