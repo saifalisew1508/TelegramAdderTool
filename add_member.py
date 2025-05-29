@@ -1,46 +1,70 @@
-import asyncio
 import json
-from itertools import dropwhile
+import time
+import random
+from pyrogram import Client, errors
+from pyrogram.types import ChatMember
 
-from helper.account_handler import add_member
-from init import rs, w, r, banner, clr
+CONFIG_FILE = "config.json"
+USERS_FILE = "data/users.json"
 
-clr()
-banner()
-print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
+# Load config data
+def load_config():
+    with open(CONFIG_FILE, "r") as f:
+        return json.load(f)
 
+# Load users to add
+def load_users():
+    with open(USERS_FILE, "r") as f:
+        return json.load(f)
 
-# option for choose username or id
-option = input("choose method username or id: ").lower()
-
-
-async def main():
-    # loads member
+# Add a single user to the group
+def add_user_to_group(app, group_id, user_id):
     try:
-        user_id = json.load(open("data/user.json", encoding="utf-8"))
-    except:
-        user_id = json.load(open("data/source_user.json", encoding="utf-8"))
+        app.add_chat_members(group_id, user_id)
+        print(f"✅ Added user {user_id}")
+        return True
+    except errors.UserAlreadyParticipant:
+        print(f"⚠️ User {user_id} is already in the group.")
+    except errors.PeerFlood:
+        print("❌ PeerFloodError! Too many requests. Stop and try again later.")
+        exit()
+    except errors.UserPrivacyRestricted:
+        print(f"🚫 User {user_id} has privacy settings that block invites.")
+    except Exception as e:
+        print(f"❌ Failed to add {user_id}: {str(e)}")
+    return False
 
-    # loads users and channel info
-    config = json.load(open("config.json", encoding="utf-8"))
+# Main function
+def main():
+    config = load_config()
+    users = load_users()
 
-    # list to chcek active member
-    activelist = [
-        "UserStatus.RECENTLY",
-        "UserStatus.LAST_MONTH",
-        "UserStatus.LAST_WEEK",
-        "UserStatus.OFFLINE",
-        "UserStatus.RECENTLY",
-        "UserStatus.ONLINE",
-    ]
-    # count retrive old state
-    last_active = config["from_date_active"]
-    added = 0
-    active = []
-    for x in dropwhile(lambda y: y != last_active, activelist):
-        active.append(x)
-    await add_member(user_id, config, active, option)
+    api_id = config["api_id"]
+    api_hash = config["api_hash"]
+    session_name = config.get("session_name", "my_session")
+    group_id = config.get("target_group")
 
+    if not group_id:
+        print("❌ Group ID not specified in config.json")
+        return
 
-asyncio.run(main())
+    app = Client(session_name, api_id=api_id, api_hash=api_hash)
+
+    with app:
+        print(f"🚀 Starting to add members to {group_id}...")
+
+        for user in users:
+            user_id = user.get("user_id")
+            if not user_id:
+                print("⚠️ Skipping invalid user entry.")
+                continue
+
+            added = add_user_to_group(app, group_id, user_id)
+
+            # Delay to avoid flooding
+            time.sleep(random.randint(10, 20))
+
+        print("🎉 Finished adding users.")
+
+if __name__ == "__main__":
+    main()
