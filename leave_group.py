@@ -1,29 +1,30 @@
-import asyncio
+from pyrogram import Client
 import json
-from helper.leave_group import leave, leave2
-from helper.logs import log
 
-# load config for accounts
-config = json.load(open("config.json"))
-group_source_id = "-100 " + str(config["group_source"])
-group_target_id = "-100" + str(config["group_target"])
-option = input("type 1 to leave source group and 2 for both: ")
+CONFIG_FILE = "config.json"
 
+def load_config():
+    with open(CONFIG_FILE, "r") as f:
+        return json.load(f)
 
-async def loginall():
-    pyro = log("PYRO-Leave_Group")
-    pyro.propagate = False
-    for account in config["accounts"]:
-        phone = account["phone"]
-        api_id = int(account["api_id"])
-        api_hash = account["api_hash"]
-        pyro.info(phone)
-        if option == "1":
-            await leave(phone, api_id, api_hash, group_source_id)
-        elif option == "2":
-            await leave2(phone, api_id, api_hash, group_source_id, group_target_id)
-        else:
-            pyro.info("Wrong option")
+def leave_group():
+    config = load_config()
 
+    api_id = config["api_id"]
+    api_hash = config["api_hash"]
+    session_name = config.get("session_name", "my_session")
 
-asyncio.run(loginall())
+    group_input = input("👋 Enter the group username (with @) or group ID: ").strip()
+    if not group_input:
+        print("❌ Group username or ID is required.")
+        return
+
+    with Client(session_name, api_id=api_id, api_hash=api_hash) as app:
+        try:
+            app.leave_chat(group_input)
+            print(f"✅ Successfully left the group: {group_input}")
+        except Exception as e:
+            print(f"❌ Error leaving group: {e}")
+
+if __name__ == "__main__":
+    leave_group()
