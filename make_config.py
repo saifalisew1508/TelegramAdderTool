@@ -1,167 +1,42 @@
-import csv
+# make_config.py
+
 import json
-import re
-from pathlib import Path
+import os
 
-from init import rs, w, r, banner, clr, lg
+CONFIG_FILE = "config.json"
 
-clr()
-banner()
-print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
-print(
-    f"  {r}For Get Your Group ID Add {w}@MissCutieRobot {r}To Your Group And Send /id In Your Group After Get Your Group ID Remove -100 From Your Group ID Before Enter In Script\n"
-)
+def prompt_int(prompt_text):
+    while True:
+        try:
+            return int(input(prompt_text))
+        except ValueError:
+            print("❌ Please enter a valid number.")
 
+def create_config():
+    print("🛠️ Let's set up your config file for TelegramAdderTool!\n")
 
-def check_num(phone):
-    """Parses the given phone, or returns None if it's invalid."""
-    if isinstance(phone, int):
-        return str(phone)
-    else:
-        phone = re.sub(r"[+()\s-]", "", str(phone))
-        if phone.isdigit():
-            return phone
+    api_id = prompt_int("🔢 Enter your API ID: ")
+    api_hash = input("🔐 Enter your API Hash: ").strip()
+    session_name = input("💼 Enter a name for your session (default: my_session): ").strip()
+    if not session_name:
+        session_name = "my_session"
 
+    group_id = input("👥 Enter the target group ID or username (with @): ").strip()
+    if not group_id:
+        print("❌ Group ID or username is required.")
+        return
 
-DEFAULT_API_ID = 25194789
-DEFAULT_API_HASH = "e59afe25c17585635ec031c889eb5b34"
-DEFAULT = "UserStatus.RECENTLY"
+    config = {
+        "api_id": api_id,
+        "api_hash": api_hash,
+        "session_name": session_name,
+        "target_group": group_id
+    }
 
-OPTIONS = (
-    "UserStatus.LAST_MONTH",
-    "UserStatus.LAST_WEEK",
-    "UserStatus.OFFLINE",
-    "UserStatus.RECENTLY",
-    "UserStatus.ONLINE",
-)
-config_path = Path("config.json")
-delay = int(input(f" {lg}Enter Delay Timing For Per Member Adding : {w}"))
-group_source = input(
-    "Enter The Group ID Of The Group From Which The Members Have To Be Scraped : "
-)
-group_target = input(
-    "Enter The Group ID Of The Group In Which The Member Is To Be Added : "
-)
-group_source_username = input(
-    "Enter The Username Of The Group From Which The Members Have To Be Scraped : "
-)
-if "+" in group_source_username:
-    pass
-else:
-    group_source_username = re.sub(
-        "(@)|(https://t.me/)|(http://t.me/)", "", group_source_username
-    )
-group_target_username = input(
-    "Enter The Username Of The Group In Which The Member Is To Be Added : "
-)
-if "+" in group_target_username:
-    pass
-else:
-    group_target_username = re.sub(
-        "(@)|(https://t.me/)|(http://t.me/)", "", group_target_username
-    )
+    with open(CONFIG_FILE, "w") as f:
+        json.dump(config, f, indent=4)
 
-choice = input(
-    f"\n\nType YES To Add API And HASH Manually\nType NO To Use Default One From Telegram Public API:> "
-).lower()
+    print(f"\n✅ Config saved successfully to '{CONFIG_FILE}'.")
 
-
-def main():
-    # for _ in range(n):
-    if choice[0] == "n":
-        with open("phone.csv", "r") as f:
-            str_list = [row[0] for row in csv.reader(f)]
-            po = 0
-            if str_list:
-                config = {
-                    "group_source": group_source,
-                    "group_target": group_target,
-                    "group_source_username": group_source_username,
-                    "group_target_username": group_target_username,
-                    "from_date_active": DEFAULT,
-                    "auto_join": True,
-                    "spam_check": True,
-                    "wait_time": delay,
-                    "accounts": [],
-                }
-                for phone in str_list:
-                    phone = check_num(phone)
-                    po += 1
-                    print(
-                        f"{phone} Added To Config Run python login.py To Login Your Accounts"
-                    )
-                    new_account = {
-                        "phone": phone,
-                        "api_id": DEFAULT_API_ID,
-                        "api_hash": DEFAULT_API_HASH,
-                    }
-                    config["accounts"].append(new_account)
-            else:
-                if config_path.exists():
-                    with open(config_path, "r", encoding="utf-8") as file:
-                        config = json.load(file)
-                else:
-                    config = {
-                        "group_source": group_source,
-                        "group_target": group_target,
-                        "group_source_username": group_source_username,
-                        "group_target_username": group_target_username,
-                        "from_date_active": DEFAULT,
-                        "auto_join": True,
-                        "spam_check": True,
-                        "wait_time": delay,
-                        "accounts": [],
-                    }
-                count = int(input("How Many Numbers You Want To Add : "))
-                while count > 0:
-                    phon = input("Enter Your Number With Country Code : ")
-                    phone = check_num(phon)
-                    print(
-                        f"{phone} Added To Config Path Now Run python login.py To Login Your Accounts"
-                    )
-                    new_account = {
-                        "phone": phone,
-                        "api_id": DEFAULT_API_ID,
-                        "api_hash": DEFAULT_API_HASH,
-                    }
-                    config["accounts"].append(new_account)
-                    count -= 1
-        with open(config_path, "w", encoding="utf-8") as file:
-            json.dump(config, file, indent=4)
-    elif choice[0] == "y":
-        count = int(input("How Many Numbers You Want To Add : "))
-        if config_path.exists():
-            with open(config_path, "r", encoding="utf-8") as file:
-                config = json.load(file)
-        else:
-            config = {
-                "group_source": group_source,
-                "group_target": group_target,
-                "group_source_username": group_source_username,
-                "group_target_username": group_target_username,
-                "from_date_active": DEFAULT,
-                "auto_join": True,
-                "spam_check": True,
-                "wait_time": delay,
-                "accounts": [],
-            }
-            count = int(input("How Many Numbers You Want To Add : "))
-        while count > 0:
-            phon = input("Enter Your Number With Country Code : ")
-            phone = check_num(phon)
-            apiid = int(input("Enter Your API_ID : "))
-            hashid = input("Enter Your API_HASH : ")
-            print(
-                f"{phone} Added To Config Path Run python login.py To Login Your Accounts"
-            )
-            new_account = {"phone": phone, "api_id": apiid, "api_hash": hashid}
-            config["accounts"].append(new_account)
-            count -= 1
-        with open(config_path, "w", encoding="utf-8") as file:
-            json.dump(config, file, indent=4)
-    else:
-        print("wrong option use YES / NO")
-
-
-main()
+if __name__ == "__main__":
+    create_config()
