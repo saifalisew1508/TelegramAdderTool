@@ -1,49 +1,36 @@
-import asyncio
+# login.py
+
+from pyrogram import Client
+import os
 import json
 
-from helper.login import login, create
-from helper.logs import log
-from init import clr, banner, w, r, rs
+CONFIG_FILE = "config.json"
 
-clr()
-banner()
-print(f"  {r}Version: {w}3.1 {r}| Author: {w}SAIF ALI{rs}\n")
-print(f"  {r}Telegram {w}@DearSaif {r}| Instagram: {w}@_Prince.Babu_{rs}\n")
+def load_config():
+    if not os.path.exists(CONFIG_FILE):
+        print("❌ Config file not found. Please run make_config.py first.")
+        exit()
+    with open(CONFIG_FILE, "r") as f:
+        return json.load(f)
 
+def create_session():
+    config = load_config()
 
-# load config for accounts
-config = json.load(open("config.json", "r"))
-group_source_id = str(config["group_source_username"])
-group_target_id = str(config["group_target_username"])
-auto_join = bool(config["auto_join"])
-option = input("Login or Signup type one : ")
+    api_id = config.get("api_id")
+    api_hash = config.get("api_hash")
+    session_name = config.get("session_name", "my_session")
 
+    print("📲 Starting login process...")
 
-async def createall():
-    PYRO = log("PYRO-START_LOGIN")
-    PYRO.propagate = False
-    for account in config["accounts"]:
-        phone = account["phone"]
-        api_id = int(account["api_id"])
-        api_hash = account["api_hash"]
-        PYRO.info(phone)
-        await create(phone, api_id, api_hash)
+    app = Client(session_name, api_id=api_id, api_hash=api_hash)
 
+    try:
+        app.start()
+        me = app.get_me()
+        print(f"✅ Successfully logged in as: {me.first_name} (@{me.username})")
+        app.stop()
+    except Exception as e:
+        print("⚠️ Login failed:", str(e))
 
-async def loginall():
-    PYRO = log("PYRO-START_LOGIN")
-    PYRO.propagate = False
-    for account in config["accounts"]:
-        phone = account["phone"]
-        api_id = int(account["api_id"])
-        api_hash = account["api_hash"]
-        PYRO.info(phone)
-        await login(
-            phone, api_id, api_hash, auto_join, group_source_id, group_target_id
-        )
-
-
-if option.lower()[0] == "l":
-    asyncio.run(loginall())
-elif option.lower()[0] == "s":
-    asyncio.run(createall())
+if __name__ == "__main__":
+    create_session()
