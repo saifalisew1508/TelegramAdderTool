@@ -1,5 +1,5 @@
 ## 🚀 Important Notice
-> **I stopped every updates in this free script because i noticed there is more than 35K visitors but no one came to appreciate/donate me for my hard working. if you want updated version and every months updates in software then think about premium membership and if you are sure for buy premium membership then contact me on Telegram [@DearSaif](Telegram.dog/DearSaif)**
+> **I stopped every updates in this free script because i noticed there is more than 35K visitors but no one came to appreciate/donate me for my hard working. if you want updated version and every months updates in software then think about premium membership and if you are sure for buy premium membership then contact me on Telegram [@DearSaif](Telegram.dog/DearSaif) **
 
 ## Guidance & More About Software
 
