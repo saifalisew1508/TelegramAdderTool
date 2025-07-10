@@ -1,4 +1,4 @@
-
+1
 # 🚀 TelegramAdderTool
 
 A powerful Telegram automation tool for adding multiple accounts to groups and channels, with advanced anti-ban logic. Designed for users who understand the risks and need efficient account handling.
@@ -63,7 +63,7 @@ Set your config values, API keys, and run the tool.
 ## ❓ Frequently Asked Questions (Q&A)
 
 ### Q: Why can’t I just use a proxy to avoid bans?
-**A:** Proxies can’t protect your account if you violate Telegram’s rules. Telegram bans are behavior-based.
+**A:** Because Telegram bans are based on account behavior, not your IP. If you violate Telegram’s Terms, a proxy won’t save you.
 
 ---
 
@@ -79,6 +79,53 @@ Set your config values, API keys, and run the tool.
 
 ### Q: Will this tool guarantee that my accounts won’t be banned?
 **A:** ❗ No. No tool can promise that. If you spam, mass DM, or violate Telegram's T&C, your account **will eventually get banned**, even if you use this tool.
+
+Q: Will this tool guarantee that my account won’t be banned?
+A: ❗ No — no tool can promise that.If you spam, mass DM, or violate Telegram's T&C.
+Telegram actively monitors all accounts (especially new ones). Even with advanced measures, violating rules or continuously excessive usage can still result in bans. even if you use this tool.
+
+This tool extends account longevity, not immunity.
+
+> “Once Telegram detects abusive activity, they will take action—bans or restrictions.”
+---
+
+### Q: Will this tool make my account 100% undetectable?
+**A:** That's like saying a ninja in bright neon clothes can’t be seen. No tool is 100% undetectable—smart usage is key.
+
+---
+
+### Q: Can I use this to add 10,000 users to my group in 1 hour?
+**A:** 😅 No. That’s a surefire way to get all your accounts banned at once. Be realistic and pace your adds like a human would.
+
+---
+
+### Q: Can I get a refund after getting banned?
+**A:** Nope. We don’t control Telegram. You’re paying for access to tools and techniques, not ban immunity.
+
+---
+
+### Q: Can I use the tool on a 2G network?
+**A:** Technically yes, but why would you torture your soul like that?
+
+---
+
+### Q: Can I run this on my microwave or smart fridge?
+**A:** Only if your fridge supports Python 3.11 and has pip installed. (In other words, no. 😄)
+
+---
+
+### Q: I entered the wrong number and got banned. Is it your fault?
+**A:** If you put your hand in a blender, do you blame the manufacturer? Use the tool wisely.
+
+---
+
+### Q: How many accounts can I use at once?
+**A:** That depends on your system resources and Telegram’s mood that day. Test gradually.
+
+---
+
+### Q: Can I use this for good?
+**A:** Absolutely! The tool itself is neutral. It's the user’s intent that defines the result. Use responsibly.
 
 ---
 
