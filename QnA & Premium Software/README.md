@@ -3,7 +3,7 @@
 
 A powerful Telegram automation tool for adding multiple accounts to groups and channels, with advanced anti-ban logic. Designed for users who understand the risks and need efficient account handling.
 
-> ⚠️ **Disclaimer**: This tool violates Telegram's Terms of Service and should only be used for educational and ethical testing purposes.
+> ⚠️ **Disclaimer**: This tool violates Telegram's Terms of Service and can be restrict/ban your accounts while using this software.
 
 ---
 
@@ -14,6 +14,15 @@ Unlock the full power of this tool with the premium version:
 - ✅ **Automated Telegram Account Addition**  
   Automatically add multiple accounts to Telegram groups/channels.
 
+- 📩 **Mass DM (Direct Messaging)**  
+  Send bulk messages to users or group members in a smart, timed way.
+
+- 🕵️ **Scrape Hidden Group Members**  
+  Collect data from groups that hide their member list using smart techniques.
+
+- ❌ **Mass Reporting Tool**  
+  Automate user or group reporting for moderation purposes.
+
 - 🔄 **Advanced IP and Device Rotation**  
   Simulates different device IDs and IP addresses without needing proxies.
 
@@ -23,11 +32,20 @@ Unlock the full power of this tool with the premium version:
 - 📱 **Virtual Number Support**  
   Compatible with verified virtual numbers to create/manage accounts.
 
-- 🛡️ **Enhanced Account Longevity**  
-  Carefully designed scripts reduce risk and increase account lifespan (not immunity).
+- 🛡️ **Enhanced Ban Protection Techniques**  
+  Improved methods to bypass spam filters and reduce Telegram bans.
 
-- 💵 **Premium Price**: $70
+- 💵 **Premium Price**: $140
+  - Original Price: $140
+  - Discount: 50% OFF
+  - Final Price After Discount: $70 only
 
+> 🎉 Don’t miss out! Get full premium features at 50% OFF – Only $70 instead of $140! Offer ends soon. 🕒
+
+
+> ✅ Limited-Time Offer!
+Get TelegramAdderTool Premium for just $70 instead of $140 – that’s a Student 50% OFF!
+Hurry, offer valid for first [120 users] or until [31/December/2025].
 ---
 
 ## 📥 Installation
